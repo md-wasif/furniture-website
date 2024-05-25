@@ -1,79 +1,66 @@
+// pages/contact.js
 "use client";
-import React from 'react'
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import Image from 'next/image';
+import React, { useState } from 'react';
 
-export default function NewArrival() {
-  const list = [
-    {
-      title: "Orange",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$5.50",
-    },
-    {
-      title: "Tangerine",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$3.00",
-    },
-    {
-      title: "Raspberry",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$10.00",
-    },
-    {
-      title: "Lemon",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$5.30",
-    },
-    {
-      title: "Avocado",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$15.70",
-    },
-    {
-      title: "Lemon 2",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$8.00",
-    },
-    {
-      title: "Banana",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$7.50",
-    },
-    {
-      title: "Watermelon",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1714071704/samples/ecommerce/analog-classic.jpg",
-      price: "$12.20",
-    },
-  ];
+const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+      if (response.ok) {
+        alert('Message sent successfully!');
+        setName('');
+        setEmail('');
+        setMessage('');
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Failed to send message:', error);
+      alert('Failed to send message. Please try again later.');
+    }
+  };
 
   return (
     <>
-      <div >
-          <h1 className='text-xl text-center p-4'> New Arrival</h1>
-        </div>
-      <div className='w-full flex justify-center item-center'>
-        <div className="w-fit gap-1 grid grid-cols-1 sm:grid-cols-4">
-          {list.map((item, index) => (
-            <Card className='bg-[#eb7515] rounded-xl w-fit ' shadow="sm" key={index}>
-              <CardBody className="overflow-visible p-0">
-                <Image
-                  shadow="sm"
-                  radius="lg"
-                  width="100%"
-                  alt={item.title}
-                  className="w-full object-cover h-[15rem] w-[20rem] rounded rounded-xl"
-                  src={item.img}
-                />
-              </CardBody>
-              <CardFooter className="text-small justify-between">
-                <b>{item.title}</b>
-                <p className="text-default-500">{item.price}</p>
-              </CardFooter>
-            </Card>
-          ))}
+      <div className='flex flex-col bg-white justify-around items-center'>
+        <div className='md:w-2/3 w-4/5 text-center py-10 text-black flex flex-col justify-center items-center font-serif italic'>
+          {/* <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1715501420/rphqhsy7ykjhcpd0cew4.png" alt="" width={500} height={200} /> */}
+        <h1 className='text-3xl p-2 font-bold'>Contact Us to Buy Your Perfect Sofa</h1>
+        <p className='text-xl'>Whether you're looking for style, comfort, or both, we've got the perfect sofa for you. Contact us today!</p>
+</div>
+        <div className="md:w-1/2 w-full mx-auto p-6 bg-transparent text-black">
+          <h1 className="text-2xl text-center font-semibold mb-4">Contact Us</h1>
+          <form onSubmit={handleSubmit}>
+                <div className="mb-4">
+                    <label className="block ">Name:</label>
+                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} required className="mt-1 p-2 w-full bg-transparent border-b border-gray-300 focus:outline-none" />
+                </div>
+                <div className="mb-4">
+                    <label className="block ">Email:</label>
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required className="mt-1 p-2 w-full bg-transparent border-b border-gray-300 focus:outline-none" />
+                </div>
+                <div className="mb-4">
+                    <label className="block ">Message:</label>
+                    <textarea value={message} onChange={(e) => setMessage(e.target.value)} required className="mt-1 p-2 w-full bg-transparent border-b border-gray-300 focus:outline-none"></textarea>
+                </div>
+                <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+            </form>
         </div>
       </div>
     </>
   );
 }
+
+export default Contact;

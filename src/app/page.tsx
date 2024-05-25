@@ -1,21 +1,22 @@
 import Image from "next/image";
-import Navbar from "./Components/Navbar";
-import HeroCarousel from "./Components/HeroCarousel";
-import TopCategories from "./Components/TopCategories";
-import BestSeller from "./Components/BestSeller";
-import NewArrival from "./Components/NewArrival";
-import { LayoutGridDemo } from "./Components/LayoutGrid";
-import ProductWithDesc from "./Components/ProductWithDesc";
-import { InfiniteMovingCardsDemo } from "./Components/InfiniteMovingCardsDemo";
-import Footer from "./Components/Footer";
+import Navbar from "../Components/Navbar";
+import HeroCarousel from "../Components/HeroCarousel";
+import TopCategories from "../Components/TopCategories";
+import BestSeller from "../Components/BestSeller";
+import NewArrival from "../Components/NewArrival";
+import { LayoutGridDemo } from "../Components/LayoutGrid";
+import ProductWithDesc from "../Components/ProductWithDesc";
+import { InfiniteMovingCardsDemo } from "../Components/InfiniteMovingCardsDemo";
+import Footer from "../Components/Footer";
+import ContactModal from "../Components/ContactModal";
 
 export default function Home() {
   return (
     <>
       <div className="bg-white text-black">
-      <Navbar />
       <HeroCarousel />
       <TopCategories />
+      <ContactModal />
       <BestSeller />
       <NewArrival />
       {/* BANNER */}
@@ -26,7 +27,6 @@ export default function Home() {
       <LayoutGridDemo />
       <ProductWithDesc />
       <InfiniteMovingCardsDemo />
-      <Footer />
       </div>
     </>
   );
