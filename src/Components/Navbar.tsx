@@ -40,7 +40,7 @@ function NavBar() {
                                 className="h-screen text-black md:h-fit items-center justify-center md:flex relative"
                             >
                                 <li className="pb-3 text-md py-2 md:px-2 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
-                                    <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                                    <Link href="/" onClick={() => setNavbar(!navbar)}>
                                         <div>Home</div>
                                     </Link>
                                     {/* Dropdown */}
@@ -50,8 +50,8 @@ function NavBar() {
                                     onMouseEnter={() => setDropdown(true)}
                                     onMouseLeave={() => setDropdown(false)}
                                 >
-                                    <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                                        <div>Product</div>
+                                    <Link href="/sofa" onClick={() => setNavbar(!navbar)}>
+                                        <div>Sofa</div>
                                     </Link>
                                     {dropdown && (
                                         <ul className="absolute left-0 rounded-lg top-full bg-white text-black p-2">
@@ -62,12 +62,12 @@ function NavBar() {
                                     )}
                                 </li>
                                 <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
-                                    <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                                    <Link href="/about" onClick={() => setNavbar(!navbar)}>
                                         <div>About</div>
                                     </Link>
                                 </li>
                                 <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
-                                    <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                                    <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                                         <div>Contact</div>
                                     </Link>
                                 </li>
