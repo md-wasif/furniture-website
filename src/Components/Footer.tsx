@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import Image from "next/image";
+import Cta from "./Cta";
 
 function Footer() {
     return (
@@ -18,10 +19,10 @@ function Footer() {
                             </Link>
                         </div>
                         <div className="flex gap-6 pb-5">
-                            <FaInstagram className="text-2xl cursor-pointer text-black hover:text-yellow-600" />
-                            <FaTwitter className="text-2xl cursor-pointer text-black hover:text-blue-600" />
-                            <FaLinkedin className="text-2xl cursor-pointer text-black hover:text-blue-600" />
-                            <FaYoutube className="text-2xl cursor-pointer text-black hover:text-red-600" />
+                            <a href="https://www.instagram.com/ontop_groups/"><FaInstagram className="text-2xl cursor-pointer text-black hover:text-yellow-600" /></a>
+                            <a href="https://www.instagram.com/ontop_groups/"><FaTwitter className="text-2xl cursor-pointer text-black hover:text-blue-600" /></a>
+                            <a href="https://www.instagram.com/ontop_groups/"><FaLinkedin className="text-2xl cursor-pointer text-black hover:text-blue-600" /></a>
+                            <a href="https://www.instagram.com/ontop_groups/"><FaYoutube className="text-2xl cursor-pointer text-black hover:text-red-600" /></a>
                         </div>
                     </ul>
                 </div>
@@ -30,16 +31,16 @@ function Footer() {
                         <ul>
                             <p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Stocks
+                                Sofa Set
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Futures & Options
+                                Sofa Cum-Bed
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Mutual Funds
+                                Wooden Sofa
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Fixed deposits
+                                Leather Sofa
                             </li>
                         </ul>
                     </div>
@@ -47,33 +48,30 @@ function Footer() {
                         <ul>
                             <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                About
+                                <a href="/">Home</a>
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Products
+                                <a href="/about">About</a>
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Pricing
+                                <a href="/contact">Contact</a>
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Careers
-                            </li>
-                            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                                Press & Media
+                                <a href="/careers">Careers</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className="text-xl font-bold text-black flex flex-col justify-end items-end p-5">
                     <h1 className="p-2">Transform Your Home with Beauty Furniture</h1>
-
+                    <Cta />
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
+            <div className="flex flex-col justify-center items-center text-center  p-5 bg-white">
                 <h1 className=" text-gray-800 font-semibold">
-                    © 2021-2022 All rights reserved | Build with ❤ by{" "}
+                    © 2024-2025 All rights reserved | Build with ❤ by{" "}
                     <span className="hover:text-blue-600 font-semibold cursor-pointer">
-                        streamline{" "}
+                        ontopgroups{""}
                     </span>
                 </h1>
             </div>

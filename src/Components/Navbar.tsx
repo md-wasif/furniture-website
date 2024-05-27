@@ -26,7 +26,7 @@ function NavBar() {
                                     className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                     onClick={() => setNavbar(!navbar)}
                                 >
-                                    {navbar ?  <FiX size={30} />: <FiMenu size={30} />}
+                                    {navbar ? <FiX size={30} /> : <FiMenu size={30} />}
                                 </button>
                             </div>
                         </div>
@@ -39,28 +39,17 @@ function NavBar() {
                             <ul
                                 className="h-screen text-black md:h-fit items-center justify-center md:flex relative"
                             >
-                                <li className="pb-3 text-md py-2 md:px-2 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
+                                <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
                                     <Link href="/" onClick={() => setNavbar(!navbar)}>
                                         <div>Home</div>
                                     </Link>
-                                    {/* Dropdown */}
-
                                 </li>
-                                <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent"
-                                    onMouseEnter={() => setDropdown(true)}
-                                    onMouseLeave={() => setDropdown(false)}
-                                >
+                                <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
                                     <Link href="/sofa" onClick={() => setNavbar(!navbar)}>
-                                        <div>Sofa</div>
+                                        <div>Sofas</div>
                                     </Link>
-                                    {dropdown && (
-                                        <ul className="absolute left-0 rounded-lg top-full bg-white text-black p-2">
-                                            <li className="hover:text-[#cf6f4c]" >Dropdown Item 1</li>
-                                            <li className="hover:text-[#cf6f4c]">Dropdown Item 2</li>
-                                            <li className="hover:text-[#cf6f4c]">Dropdown Item 3</li>
-                                        </ul>
-                                    )}
                                 </li>
+
                                 <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
                                     <Link href="/about" onClick={() => setNavbar(!navbar)}>
                                         <div>About</div>

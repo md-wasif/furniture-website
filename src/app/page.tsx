@@ -8,7 +8,7 @@ import { LayoutGridDemo } from "../Components/LayoutGrid";
 import ProductWithDesc from "../Components/ProductWithDesc";
 import { InfiniteMovingCardsDemo } from "../Components/InfiniteMovingCardsDemo";
 import Footer from "../Components/Footer";
-import ContactModal from "../Components/ContactModal";
+import ContactModal from "../Components/Cta";
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
       <div className="bg-white text-black">
       <HeroCarousel />
       <TopCategories />
-      <ContactModal />
       <BestSeller />
       <NewArrival />
       {/* BANNER */}
