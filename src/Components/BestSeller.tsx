@@ -7,19 +7,19 @@ interface imagesurl {
 const images: imagesurl[] = [
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716636855/website%20assets/sofa%20set/ir7vbzdzu20hmf3sud81.webp",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716636854/website%20assets/sofa%20set/mvefkg4irsxqaghaq6og.webp",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716636824/website%20assets/corner%20sofa/nnkjvzqglpmlkvcfh1t9.webp",
   },
 ];
 
