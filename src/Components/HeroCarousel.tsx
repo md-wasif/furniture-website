@@ -42,7 +42,7 @@ function HeroCarousel() {
   };
 
   return (
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 md:mt-20 mt-8 relative group'>
+    <div className='max-w-[1200px] h-[580px] w-full m-auto py-3rem px-4 md:mt-10 md:mb-10 mt-8 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'

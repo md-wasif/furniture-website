@@ -20,32 +20,54 @@ export function InfiniteMovingCardsDemo() {
 
 const testimonials = [
   {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+    quote: "The selection was diverse, catering to various tastes and styles. The quality of the sofa exceeded my expectations, and the staff provided excellent assistance throughout the process. From choosing the fabric to arranging delivery, their service was top-notch.",
+    name: "Rittick Dutta",
+    title: "Extremely Satisfied Customer",
   },
   {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+    quote: "Very good quality products available. All furniture are very good quality. Sofa designs are very nice. Awesome design.",
+    name: "Kazi Zulfikar Ali",
+    title: "Impressed Customer",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+    quote: "A fabulous place where you can purchase your dream furniture for your home at affordable prices. Do get experienced guys!",
+    name: "Aditi Mondal",
+    title: "Highly Recommended",
   },
   {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "Nice place, very good quality products available.",
+    name: "টবে জৈবিক চাষ",
+    title: "Satisfied Customer",
   },
   {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+    quote: "Great product, and great behavior. Overall perfect place for buying furniture.",
+    name: "Sk Ekramul",
+    title: "Happy Shopper",
   },
+  {
+    quote: "Very nice place to buy something for home, I was amazed to see the range they have in store and I personally recommended this store.",
+    name: "Neha Noor",
+    title: "Delighted Customer",
+  },
+  {
+    quote: "Best sofas and more comfort at very low prices.",
+    name: "Wasif",
+    title: "Highly Satisfied Customer",
+  },
+  {
+    quote: "Superb collection & very reasonable price. The shopping experience was delightful.",
+    name: "Abinash Jana",
+    title: "Impressed Shopper",
+  },
+  {
+    quote: "Excellent products collection... Their range is unparalleled.",
+    name: "Dipankar Mondal",
+    title: "Satisfied Buyer",
+  },
+  {
+    quote: "Comfortable and budget-friendly. And also quality was good. Will definitely come back for more.",
+    name: "Haimanti Piyada",
+    title: "Satisfied Shopper",
+  },
+  // Add more testimonials here
 ];

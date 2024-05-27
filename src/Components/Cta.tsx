@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 
-const ContactModal = () => {
+const Cta = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [formData, setFormData] = useState({
         name: '',
@@ -49,8 +49,8 @@ const ContactModal = () => {
 
     return (
         <>
-            <button onClick={() => setIsOpen(true)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Open Contact Form
+            <button onClick={() => setIsOpen(true)} className="bg-blue-900 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
+                Book Now
             </button>
             {isOpen && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
@@ -83,4 +83,4 @@ const ContactModal = () => {
     );
 }
 
-export default ContactModal;
+export default Cta;
