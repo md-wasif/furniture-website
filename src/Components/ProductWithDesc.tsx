@@ -12,7 +12,7 @@ function ProductWithDesc() {
                         <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg" alt="Leather Sofa" width={400} height={100} />
                     </div>
                     <div className='w-full flex flex-col p-5 text-left '>
-                        <h1 className='text-xl'>Luxurious Leather Sofa</h1>
+                        <h1 className='text-xl font-bold'>Luxurious Leather Sofa</h1>
                         <p>Indulge in luxury with our Luxurious Leather Sofa, crafted from premium leather for unmatched comfort and elegance. Experience the ultimate relaxation with this timeless piece of furniture.</p>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ function ProductWithDesc() {
                         <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg" alt="Wooden Sofa" width={400} height={100} />
                     </div>
                     <div className='w-full flex flex-col p-5 text-left '>
-                        <h1 className='text-xl'>Classic Wooden Sofa</h1>
+                        <h1 className='text-xl font-bold'>Classic Wooden Sofa</h1>
                         <p>Bring warmth and sophistication to your home with our Classic Wooden Sofa, crafted from high-quality wood for durability and timeless appeal. Elevate your living space with this elegant addition.</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function ProductWithDesc() {
                         <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg" alt="Sofa Cumbed" width={400} height={100} />
                     </div>
                     <div className='w-full flex flex-col p-5 text-left '>
-                        <h1 className='text-xl'>Versatile Sofa Cum Bed</h1>
+                        <h1 className='text-xl font-bold'>Versatile Sofa Cum Bed</h1>
                         <p>Maximize space in your home with our Versatile Sofa Cum Bed, designed to seamlessly transition from a comfortable sofa to a cozy bed. Experience convenience and functionality without compromising on style.</p>
                     </div>
                 </div>
