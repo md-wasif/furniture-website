@@ -3,43 +3,43 @@ import React from 'react';
 export default function NewArrival() {
   const list = [
     {
-      title: "Orange",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Loveseat",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716636830/website%20assets/fabric%20sofa/dguqhhsrfhwqwi7p3dcf.webp",
       price: "$5.50",
     },
     {
-      title: "Tangerine",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Chesterfield",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716838014/website%20assets/leather%20sofa/style/susoh5ct3roy5opsgtyh.webp",
       price: "$3.00",
     },
     {
-      title: "Raspberry",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Tuxedo",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716838015/website%20assets/leather%20sofa/style/i2w14zaajb9qrtiijmij.jpg",
       price: "$10.00",
     },
     {
-      title: "Lemon",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Chaise",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716838015/website%20assets/leather%20sofa/style/yvz1ucswpotbz7tqcv72.jpg",
       price: "$5.30",
     },
     {
-      title: "Avocado",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Divan",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716838014/website%20assets/leather%20sofa/style/cxeemehtj5bh8se8jv42.jpg",
       price: "$15.70",
     },
     {
-      title: "Lemon 2",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Futon",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716636860/website%20assets/sofacumbed/uybmjc8wpsfuwahusymd.webp",
       price: "$8.00",
     },
     {
-      title: "Banana",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Wingback Chair",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716838014/website%20assets/leather%20sofa/style/tykvjuuvdgy2llyakiw6.webp",
       price: "$7.50",
     },
     {
-      title: "Watermelon",
-      img: "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      title: "Egg Chair",
+      img: "https://res.cloudinary.com/dg38njbya/image/upload/v1716636838/website%20assets/leather%20sofa/eyxvedtyk3upoqhpifhi.webp",
       price: "$12.20",
     },
   ];
@@ -62,7 +62,7 @@ export default function NewArrival() {
               </div>
               <div className="p-4">
                 <b>{item.title}</b>
-                <p className="text-default-500">{item.price}</p>
+                {/* <p className="text-default-500">{item.price}</p> */}
               </div>
             </div>
           ))}

@@ -7,19 +7,19 @@ interface imagesurl {
 const images: imagesurl[] = [
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/qd5srgdjsahvyju9spl0.webp",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/r8mgrhvui6bmf6xrf5hf.jpg",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823028/website%20assets/BEST%20SELLER/o2sgan30apseqplmu1ro.jpg",
   },
   {
     imageUrl:
-      "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/v3gw8u0q0jeee4dufife.jpg",
+      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/g5p5qysi7wm4xcct4eb9.avif",
   },
 ];
 
