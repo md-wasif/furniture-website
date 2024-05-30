@@ -67,28 +67,28 @@ const cards = [
       content: <SkeletonOne />,
       className: "md:col-span-2",
       thumbnail:
-        "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg",
+        "https://res.cloudinary.com/dg38njbya/image/upload/v1716636837/website%20assets/leather%20sofa/xf5otfqo5lvbttgwx7hh.webp",
     },
     {
       id: 2,
       content: <SkeletonTwo />,
       className: "col-span-1",
       thumbnail:
-        "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg",
+        "https://res.cloudinary.com/dg38njbya/image/upload/v1716636850/website%20assets/premium%20sofa/cuoeygtimbhsbwso7dx2.webp",
     },
     {
       id: 3,
       content: <SkeletonThree />,
       className: "col-span-1",
       thumbnail:
-        "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg",
+        "https://res.cloudinary.com/dg38njbya/image/upload/v1716636855/website%20assets/sofa%20set/ir7vbzdzu20hmf3sud81.webp",
     },
     {
       id: 4,
       content: <SkeletonFour />,
       className: "md:col-span-2",
       thumbnail:
-        "https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg",
+        "https://res.cloudinary.com/dg38njbya/image/upload/v1716636849/website%20assets/premium%20sofa/lxhpc0wvlynik4d2mfyq.webp",
     },
   ];
   

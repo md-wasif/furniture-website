@@ -6,20 +6,20 @@ import { RxDotFilled } from 'react-icons/rx';
 function HeroCarousel() {
   const slides = [
     {
-      url: 'https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/dymfeexnucmxmeeff7jd.jpg',
     },
     {
-      url: 'https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/jnv1ahnjf2eozggjycbo.jpg',
     },
     {
-      url: 'https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/vtk2rfddr2p0l0lu3erl.webp',
     },
 
     {
-      url: 'https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716883217/website%20assets/wlsyyztyq83xpl8qjaug.jpg',
     },
     {
-      url: 'https://res.cloudinary.com/drszvaldf/image/upload/v1715094510/woxlehpmbhxc39vdjjj3.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716883217/website%20assets/lcpq06u7f1y7ovem44ly.jpg',
     },
   ];
 
