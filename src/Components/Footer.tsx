@@ -1,28 +1,27 @@
 import React from "react";
 import Link from 'next/link';
 import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaPhone } from "react-icons/fa";
 import Image from "next/image";
 import Cta from "./Cta";
 
 function Footer() {
     return (
         <>
-            <div className="bg-white h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
+            <div className="bg-gray-200 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
                 <div className="p-5">
                     <ul>
                         <div className='w-[10rem]'>
                             <Link href="/">
-                                <Image src="https://res.cloudinary.com/dllddjxkf/image/upload/t_bf_logo/ybxz4hjyp7bcayaqenqa.jpg" alt="Description" width={200} height={100} />
+                                <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1717052012/xk8julcz94ozzbud8uhu.png" alt="Description" width={200} height={100} />
                             </Link>
                         </div>
-                        <div className="flex gap-6 pb-5">
-                            <a href="https://www.instagram.com/ontop_groups/"><FaInstagram className="text-2xl cursor-pointer text-black hover:text-yellow-600" /></a>
-                            <a href="https://www.instagram.com/ontop_groups/"><FaTwitter className="text-2xl cursor-pointer text-black hover:text-blue-600" /></a>
-                            <a href="https://www.instagram.com/ontop_groups/"><FaLinkedin className="text-2xl cursor-pointer text-black hover:text-blue-600" /></a>
-                            <a href="https://www.instagram.com/ontop_groups/"><FaYoutube className="text-2xl cursor-pointer text-black hover:text-red-600" /></a>
+                        <div className="flex justify-center gap-6 pb-5">
+                            <a href="https://www.instagram.com/ontop_groups/"><FaInstagram className="text-2xl cursor-pointer text-black hover:text-yellow-500" /></a>
+                            <a href="https://www.instagram.com/ontop_groups/"><FaFacebook className="text-2xl cursor-pointer text-black hover:text-blue-500" /></a>
+                        </div>
+                        <div className="flex justify-center text-black">
+                            <a href="tel:+1234567890"><FaPhone className="text-2xl cursor-pointer text-black hover:text-blue-300" /></a>+91 1234567890
                         </div>
                     </ul>
                 </div>
@@ -67,7 +66,7 @@ function Footer() {
                     <Cta />
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center  p-5 bg-white">
+            <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-300">
                 <h1 className=" text-gray-800 font-semibold">
                     © 2024-2025 All rights reserved | Build with ❤ by{" "}
                     <span className="hover:text-blue-600 font-semibold cursor-pointer">

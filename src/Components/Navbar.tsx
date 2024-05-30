@@ -11,13 +11,13 @@ function NavBar() {
     return (
         <div>
             <nav className="w-full bg-white fixed top-0 left-0 right-0 z-50">
-                <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:flex-col md:px-8">
+                <div className="justify-between px-4 mx-auto lg:w-full md:items-center md:flex md:flex-col md:px-0">
                     <div>
                         <div className="flex md:flex-col items-center justify-between md:py-0 py-1 md:py-1 md:block">
                             {/* LOGO */}
                             <div className='w-[8rem]'>
                                 <Link href="/">
-                                    <Image src="https://res.cloudinary.com/dllddjxkf/image/upload/t_bf_logo/ybxz4hjyp7bcayaqenqa.jpg" alt="Description" width={200} height={100} />
+                                    <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1717052012/xk8julcz94ozzbud8uhu.png" alt="Description" width={200} height={100} />
                                 </Link>
                             </div>
                             {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -31,7 +31,7 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='bg-gray-100 transparent w-full'>
                         <div
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'
                                 }`}
@@ -46,7 +46,7 @@ function NavBar() {
                                 </li>
                                 <li className="pb-3 text-md py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#cf6f4c]  border-purple-900  md:hover:text-[#cf6f4c] md:hover:bg-transparent">
                                     <Link href="/sofa" onClick={() => setNavbar(!navbar)}>
-                                        <div>Sofas</div>
+                                        <div>Sofa</div>
                                     </Link>
                                 </li>
 

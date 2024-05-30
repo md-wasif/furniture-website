@@ -9,15 +9,14 @@ export function LayoutGridDemo() {
     </div>
   );
 }
-
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House in the woods</p>
+      <p className="font-bold text-4xl text-white">Comfortable Sofa</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
+        This sofa offers a perfect blend of comfort and style, making it a
+        great addition to any living room.
       </p>
     </div>
   );
@@ -26,40 +25,42 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House above the clouds</p>
+      <p className="font-bold text-4xl text-white">Modern Sectional Sofa</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a
-        unique living experience. It&apos;s a place where the sky meets home,
-        and tranquility is a way of life.
+        A sleek and contemporary sectional sofa that provides ample seating and
+        adds a modern touch to your home decor.
       </p>
     </div>
   );
 };
+
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Greens all over</p>
+      <p className="font-bold text-4xl text-white">Luxurious Leather Sofa</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Experience the elegance and comfort of this luxurious leather sofa,
+        perfect for any sophisticated living space.
       </p>
     </div>
   );
 };
+
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Rivers are serene</p>
+      <p className="font-bold text-4xl text-white">Cozy Recliner Sofa</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        This recliner sofa offers unmatched comfort and relaxation, ideal for
+        unwinding after a long day.
       </p>
     </div>
   );
 };
+
 
 const cards = [
     {

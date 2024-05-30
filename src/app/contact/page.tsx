@@ -55,7 +55,7 @@ const Contact = () => {
                     <label className="block ">Message:</label>
                     <textarea value={message} onChange={(e) => setMessage(e.target.value)} required className="mt-1 p-2 w-full bg-transparent border-b border-gray-300 focus:outline-none"></textarea>
                 </div>
-                <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+                <div className='flex justify-center'><button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button></div>
             </form>
         </div>
       </div>

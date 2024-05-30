@@ -50,7 +50,7 @@ const Cta = () => {
     return (
         <>
             <button onClick={() => setIsOpen(true)} className="bg-blue-900 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
-                Book Now
+                Order Now
             </button>
             {isOpen && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">

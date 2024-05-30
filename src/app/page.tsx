@@ -20,7 +20,7 @@ export default function Home() {
       <NewArrival />
       {/* BANNER */}
       <div className="w-full py-12">
-        <Image className="w-full h-[20rem] " src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={100} height={100} />
+        <Image className="w-full h-[24rem] " src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={1920} height={400} />
       </div>
 
       <LayoutGridDemo />

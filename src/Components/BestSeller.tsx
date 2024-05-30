@@ -32,7 +32,7 @@ function BestSeller() {
           {images.map((service, index) => (
             <img key={index} className='w-[22rem]' src={service.imageUrl} alt={`Image ${index + 1}`} />
           ))}
-          <a href="/service">
+          <a href="/sofa">
             <h1 className="text-2xl">Explore More...</h1>
           </a>
         </div>
