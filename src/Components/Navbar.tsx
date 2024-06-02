@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function NavBar() {
     const [navbar, setNavbar] = useState<boolean>(true);
-    const [dropdown, setDropdown] = useState<boolean>(false);
+    const [active, setActive] = useState<boolean>(true);
 
     return (
         <div>
@@ -15,7 +15,7 @@ function NavBar() {
                     <div>
                         <div className="flex md:flex-col items-center justify-between md:py-0 py-1 md:py-1 md:block">
                             {/* LOGO */}
-                            <div className='w-[8rem]'>
+                            <div className='w-[9rem]'>
                                 <Link href="/">
                                     <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1717052012/xk8julcz94ozzbud8uhu.png" alt="Description" width={200} height={100} />
                                 </Link>
@@ -31,7 +31,7 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-gray-100 transparent w-full'>
+                    <div className='transparent w-full border-b border-black'>
                         <div
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'
                                 }`}

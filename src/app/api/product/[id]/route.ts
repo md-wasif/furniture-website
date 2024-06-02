@@ -1,8 +1,4 @@
-// pages/sofas.js
-"use client";
-import React, { useState } from 'react';
-import Sofa from '@/Components/Sofa';
-import Categories from '@/Components/Categories';
+import { NextResponse } from "next/server";
 
 const sofasData = [
     { id: 1, name: 'Sofa 1', category: 'Fabric', price: '$500', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp' },
@@ -75,51 +71,16 @@ const sofasData = [
     // Add more sofa data here
 ];
 
-const SofasPage = () => {
-    const [selectedCategory, setSelectedCategory] = useState('All');
+export async function GET(request: Request, context: any) {
+    const { params } = context;
+    const { id } = params;
+    
+    const sofaId = parseInt(id, 10);
+    const sofa = sofasData.find((sofa) => sofa.id === sofaId);
 
-    const handleCategoryChange = (category: React.SetStateAction<string>) => {
-        setSelectedCategory(category);
-        console.log(category);
-    };
-
-    return (
-        <div className="max-w-full mx-auto mt-8 p-10 bg-white text-black">
-            <h1 className="text-2xl font-semibold mb-4 text-center">All Sofas</h1>
-            <Categories onSelectCategory={handleCategoryChange} />
-            <div className="mb-4 text-center">
-                <label className="mr-2">Filter by Category:</label>
-                <select onChange={(e) => handleCategoryChange(e.target.value)} value={selectedCategory} className="w-fit p-2 border border-gray-300 rounded">
-                <option value="All">All</option>
-                    <option value="Fabric">Fabric</option>
-                    <option value="Wooden">Wooden</option>
-                    <option value="Leatherette">Leatherette</option>
-                    <option value="Leather">Leather</option>
-                    <option value="Sofa Bed">Sofa Bed</option>
-                    <option value="Sofa Set">Sofa Set</option>
-                    <option value="Corner Sofa">Corner Sofa</option>
-                    <option value="Premium Sofa">Premium Sofa</option>
-                </select>
-            </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
-                {sofasData
-                    .filter((sofa) => selectedCategory === 'All' || sofa.category === selectedCategory)
-                    .map((sofa) => (
-                        // <Sofa key={sofa.id} {...sofa} />
-                        <Sofa
-                        key={sofa.id}
-                        id={sofa.id}
-                        name={sofa.name}
-                        category={sofa.category}
-                        price={sofa.price}
-                        imageUrl={sofa.imageUrl}
-                    />
-                    ))}
-            </div>
-        </div>
-    );
-};
-
-export default SofasPage;
-
-
+    if (sofa) {
+        return NextResponse.json({ sofa });
+    } else {
+        return NextResponse.json({ error: 'Sofa not found' }, { status: 404 });
+    }
+}
