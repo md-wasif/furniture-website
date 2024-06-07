@@ -41,11 +41,11 @@ export default function SofaDetails() {
   }, [id]);
 
   if (!product) {
-    return <main>Loading...</main>;
+    return <main className='flex justify-center items-center'>Loading...</main>;
   }
 
-
   const whatsappShareUrl = `https://wa.me/?text=Check%20out%20this%20sofa:%20${window.location.href}`;
+
 
   return (
     <main className="flex items-center justify-center p-5 bg-white">
@@ -53,11 +53,25 @@ export default function SofaDetails() {
         <div className="flex-1 p-5">
           <img src={product.sofa.imageUrl} alt={product.sofa.name} className="w-full h-auto rounded-lg" />
         </div>
+
         <div className="flex-1 p-5 flex flex-col justify-between text-black">
           <div>
             <h1 className="text-3xl font-bold mb-4">{product.sofa.name}</h1>
-            <p className="mb-2 text-lg">Category: {product.sofa.category}</p>
-            <p className="mb-4 text-lg">Price: ${product.sofa.price}</p></div>
+            <p className='mb-2 text-md'>{product.sofa.description}</p>
+            <p className="mb-2 text-lg font-bold">Category: <span className='font-light'>{product.sofa.category}</span></p>
+            <p className="mb-4 text-lg font-bold">
+              Price: 
+              <span className="ml-2">
+                {product.sofa.price && !isNaN(parseFloat(product.sofa.price.replace(/[^0-9.]/g, ''))) ?
+                  (parseFloat(product.sofa.price.replace(/[^0-9.]/g, '')) * 0.7).toFixed(2)+'  '
+                  : 'Invalid price'}
+              </span>
+              <span className="line-through font-light text-sm">{product.sofa.price}</span> {' '} 
+              <span className='py-1 px-2 rounded-lg bg-orange-500 text-white text-sm'>{' '}30%</span>
+            </p>
+          </div>
+
+
           <div>
             <a
               href="/checkout"
