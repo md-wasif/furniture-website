@@ -30,7 +30,15 @@ const Sofa: React.FC<SofaProps> = ({ id, name, category, price, imageUrl }) => {
                     <p>Category: {category}</p>
                 </div>
                 <div>
-                    <p>Price: {price}</p>
+                    <p className="text-lg font-bold flex flex-col items-end">
+                        <span className="ml-2">
+                            {price && !isNaN(parseFloat(price.replace(/[^0-9.]/g, ''))) ?
+                                (parseFloat(price.replace(/[^0-9.]/g, '')) * 0.7).toFixed(2) + '  '
+                                : 'Invalid price'}
+                        </span>
+                        <span className="line-through font-light text-sm">{price}</span> {' '}
+                        {/* <span className='py-1 px-2 rounded-lg bg-orange-500 text-white text-sm'>{' '}30%</span> */}
+                    </p>
                 </div>
             </div>
         </div>

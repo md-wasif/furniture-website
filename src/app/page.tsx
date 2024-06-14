@@ -13,7 +13,7 @@ import ContactModal from "../Components/Cta";
 export default function Home() {
   return (
     <>
-      <div className="bg-white text-black">
+      <div className="bg-white text-black m-0 p-0">
       <HeroCarousel />
       <TopCategories />
       <BestSeller />

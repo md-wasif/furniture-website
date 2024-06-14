@@ -8,7 +8,7 @@ import Cta from "./Cta";
 function Footer() {
     return (
         <>
-            <div className="bg-gray-200 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
+            <div className="bg-gray-200 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:px-20 md:py-8">
                 <div className="p-5">
                     <ul>
                         <div className='w-[10rem]'>
@@ -66,12 +66,12 @@ function Footer() {
                     <Cta />
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-300">
-                <h1 className=" text-gray-800 font-semibold">
+            <div className="flex flex-col justify-center items-center text-center h-fit-content p-5 bg-gray-200 font-light">
+                <h1 className=" text-gray-800">
                     © 2024-2025 All rights reserved | Build with ❤ by{" "}
-                    <span className="hover:text-blue-600 font-semibold cursor-pointer">
-                        ontopgroups{""}
-                    </span>
+                    <a href="https://ontopgroups.com" target="_blank" className="hover:text-blue-600 cursor-pointer">
+                        ontopgroups
+                    </a>
                 </h1>
             </div>
         </>
