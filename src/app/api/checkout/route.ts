@@ -1,29 +1,40 @@
 import { NextRequest, NextResponse } from "next/server";
 import { transporter, mailOptions } from "../../../../utils/nodemailer";
 
-
-type ContactFormData = {
+type CheckoutFormData = {
   name: string;
   email: string;
-  message: string;
+  phone: string;
+  address: string;
+  city: string;
+  state: string;
+  zipCode: string;
 }
 
 export async function POST(req: NextRequest) {
   if (req.method === 'POST') {
     const body = await req.json();
 
-    const data: ContactFormData = body;
+    const data: CheckoutFormData = body;
 
-    if (!data || !data.name || !data.email || !data.message) {
-      return NextResponse.json({ message: " Bad Request " }, { status: 400 });
+    if (!data || !data.name || !data.email || !data.phone || !data.address || !data.city || !data.state || !data.zipCode) {
+      return NextResponse.json({ message: "Bad Request" }, { status: 400 });
     }
 
     try {
       await transporter.sendMail({
         ...mailOptions,
         from: `"${data.name}" <${data.email}>`,
-        subject: 'New Contact Form Submission',
-        text: data.message,
+        subject: 'New Checkout Form Submission',
+        text: `
+          Name: ${data.name}
+          Email: ${data.email}
+          Phone: ${data.phone}
+          Address: ${data.address}
+          City: ${data.city}
+          State: ${data.state}
+          Zip Code: ${data.zipCode}
+        `,
       });
 
       return NextResponse.json({ message: "Email Sent Successfully" }, { status: 200 });

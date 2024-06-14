@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -41,6 +41,13 @@ function HeroCarousel() {
     setCurrentIndex(slideIndex);
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
   return (
     <div className='max-w-[1200px] h-[580px] w-full m-auto py-3rem px-4 md:mt-10 md:mb-10 mt-8 relative group'>
       <div
@@ -62,7 +69,6 @@ function HeroCarousel() {
             onClick={() => goToSlide(slideIndex)}
             className='text-2xl cursor-pointer'
           >
-            <RxDotFilled />
           </div>
         ))}
       </div>
