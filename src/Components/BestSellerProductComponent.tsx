@@ -36,7 +36,7 @@ const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, im
             className="mb-4 text-black cursor-pointer transition-colors duration-700 w-full h-full"
             onClick={handleProductClick}
         >
-            <div className="relative w-[19rem] h-[18rem] rounded-xl overflow-hidden">
+            <div className="relative w-[22rem] h-[22rem] rounded-md overflow-hidden">
                 <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded">
                     {discount} Off
                 </div>

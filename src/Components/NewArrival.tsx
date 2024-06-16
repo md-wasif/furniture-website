@@ -104,49 +104,54 @@ export default function NewArrival() {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-        scrollRef.current.scrollBy({
-            left: -300,
-            behavior: 'smooth'  // Smooth scrolling
-        });
+      scrollRef.current.scrollBy({
+        left: -300,
+        behavior: 'smooth'  // Smooth scrolling
+      });
     }
-};
+  };
 
-const scrollRight = () => {
+  const scrollRight = () => {
     if (scrollRef.current) {
-        scrollRef.current.scrollBy({
-            left: 300,
-            behavior: 'smooth'  // Smooth scrolling
-        });
+      scrollRef.current.scrollBy({
+        left: 300,
+        behavior: 'smooth'  // Smooth scrolling
+      });
     }
-};
+  };
   return (
     <div className="m-auto w-[90%] py-10 relative">
-            <h1 className='text-xl text-center mb-6'>New Arrival</h1>
-            <div className="flex overflow-x-auto space-x-4 p-4" ref={scrollRef}>
-                {list.map((sofa) => (
-                    <BestSellerSofaComp
-                        key={sofa.id}
-                        id={sofa.id}
-                        name={sofa.name}
-                        category={sofa.category}
-                        price={sofa.price}
-                        imageUrl={sofa.imageUrl}
-                        discount={sofa.discount}
-                    />
-                ))}
-            </div>
-            <button
-                className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
-                onClick={scrollLeft}
-            >
-                <FaChevronLeft size={24} />
-            </button>
-            <button
-                className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
-                onClick={scrollRight}
-            >
-                <FaChevronRight size={24} />
-            </button>
-        </div>
+      <h1 className='text-xl text-center mb-6'>New Arrival</h1>
+      <div className="flex overflow-x-auto space-x-4 p-4" ref={scrollRef}
+        style={{
+          msOverflowStyle: 'none',  // IE and Edge
+          scrollbarWidth: 'none',   // Firefox
+        }}
+      >
+        {list.map((sofa) => (
+          <BestSellerSofaComp
+            key={sofa.id}
+            id={sofa.id}
+            name={sofa.name}
+            category={sofa.category}
+            price={sofa.price}
+            imageUrl={sofa.imageUrl}
+            discount={sofa.discount}
+          />
+        ))}
+      </div>
+      <button
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        onClick={scrollLeft}
+      >
+        <FaChevronLeft size={24} />
+      </button>
+      <button
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        onClick={scrollRight}
+      >
+        <FaChevronRight size={24} />
+      </button>
+    </div>
   );
 }

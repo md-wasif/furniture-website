@@ -10,6 +10,7 @@ import { InfiniteMovingCardsDemo } from "../Components/InfiniteMovingCardsDemo";
 import Footer from "../Components/Footer";
 import ContactModal from "../Components/Cta";
 import VideoPlayer from "@/Components/VideoPlayer";
+import PopularCategories from "@/Components/PopularCategories";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       {/* <TopCategories /> */}
       <br/>
       <br/>
-      <NewArrival />
+      <PopularCategories/>
       {/* BANNER */}
       <div className="w-full py-12">
         <Image className="w-full" src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={1920} height={400} />
