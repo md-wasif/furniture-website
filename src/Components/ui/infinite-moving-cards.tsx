@@ -2,6 +2,7 @@
 
 import { cn } from "../../../utils/cn";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 export const InfiniteMovingCards = ({
   items,
@@ -11,6 +12,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    imageUrl: string;
     quote: string;
     name: string;
     title: string;
@@ -87,36 +89,24 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-          className="w-[350px] max-w-full bg-gray-200 relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px] text-black"
+          className="w-[250px] max-w-full relative flex-shrink-0 border-slate-700 md:w-[350px] text-black"
           // style={{
           //   background:
           //   "gray",
           // }}
           key={item.name}
         >
-          <blockquote>
-            <div
-              aria-hidden="true"
-              className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-            ></div>
-            <span className=" relative z-20 text-sm leading-[1.6] text-black font-normal">
-              {item.quote}
-            </span>
-            <div className="relative z-20 mt-6 flex flex-row items-center">
-              <span className="flex flex-col gap-1">
-                <span className=" text-sm leading-[1.6] text-black font-normal">
-                  {item.name}
-                </span>
-                <span className=" text-sm leading-[1.6] text-black font-normal">
-                  {item.title}
-                </span>
-              </span>
-            </div>
-          </blockquote>
+          <div className="flex flex-col justify-center items-center">
+            <Image className="w-full" src={item.imageUrl} alt="" width={1920} height={300} />
+            <p className="w-full text-xl text-center py-2">{item.title}</p>
+            <p className="w-full text-xs">{item.quote}</p>
+            <p className="w-full text-center">{item.name}</p>
+          </div>
+          
         </li>
         
         ))}
       </ul>
     </div>
   );
-};
+};  

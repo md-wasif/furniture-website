@@ -46,6 +46,17 @@ export default function SofaDetails() {
 
   const whatsappShareUrl = `https://wa.me/?text=Check%20out%20this%20sofa:%20${window.location.href}`;
 
+  const calculateDiscountedPrice = (price: string, discount: string): string => {
+    if (!price || isNaN(parseFloat(price.replace(/[^0-9.]/g, '')))) {
+        return 'Invalid price';
+    }
+
+    const numericPrice = parseFloat(price.replace(/[^0-9.]/g, ''));
+    const numericDiscount = parseFloat(discount.replace('%', '')) / 100;
+
+    const discountedPrice = numericPrice * (1 - numericDiscount);
+    return discountedPrice.toFixed(2);
+};
 
   return (
     <main className="flex items-center justify-center p-5 bg-white">
@@ -61,13 +72,11 @@ export default function SofaDetails() {
             <p className="mb-2 text-lg font-bold">Category: <span className='font-light'>{product.sofa.category}</span></p>
             <p className="mb-4 text-lg font-bold">
               Price: 
-              <span className="ml-2">
-                {product.sofa.price && !isNaN(parseFloat(product.sofa.price.replace(/[^0-9.]/g, ''))) ?
-                  (parseFloat(product.sofa.price.replace(/[^0-9.]/g, '')) * 0.7).toFixed(2)+'  '
-                  : 'Invalid price'}
-              </span>
+              <span className="mr-1">
+                            {calculateDiscountedPrice(product.sofa.price, product.sofa.discount) + '  '}
+                        </span>
               <span className="line-through font-light text-sm">{product.sofa.price}</span> {' '} 
-              <span className='py-1 px-2 rounded-lg bg-orange-500 text-white text-sm'>{' '}30%</span>
+              <span className='py-1 px-2 rounded-lg bg-green-500 text-white text-sm'>{product.sofa.discount}% Off</span>
             </p>
           </div>
 
@@ -75,7 +84,7 @@ export default function SofaDetails() {
           <div>
             <a
               href="/checkout"
-              className="flex items-center justify-center px-4 py-2 text-lg font-semibold text-white rounded-md bg-blue-900 hover:bg-orange-600 mb-2"
+              className="flex items-center justify-center px-4 py-2 text-lg font-semibold text-white rounded-md bg-blue-900 hover:bg-green-600 mb-2"
             >
               Order Now
             </a>
@@ -83,7 +92,7 @@ export default function SofaDetails() {
               href={whatsappShareUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center px-4 py-2 text-lg font-semibold bg-green-500 text-white rounded-md hover:bg-green-600"
+              className="flex items-center justify-center px-4 py-2 text-lg font-semibold bg-white-500 text-green-500 rounded-md border border-black hover:bg-green-600 hover:text-white"
             >
               <FaWhatsapp className="mr-2" /> Share on WhatsApp
             </a>

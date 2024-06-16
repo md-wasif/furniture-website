@@ -9,20 +9,24 @@ import ProductWithDesc from "../Components/ProductWithDesc";
 import { InfiniteMovingCardsDemo } from "../Components/InfiniteMovingCardsDemo";
 import Footer from "../Components/Footer";
 import ContactModal from "../Components/Cta";
+import VideoPlayer from "@/Components/VideoPlayer";
 
 export default function Home() {
   return (
     <>
       <div className="bg-white text-black">
       <HeroCarousel />
-      <TopCategories />
-      <BestSeller />
+      {/* <TopCategories /> */}
+      <br/>
+      <br/>
       <NewArrival />
       {/* BANNER */}
       <div className="w-full py-12">
-        <Image className="w-full h-[24rem] " src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={1920} height={400} />
+        <Image className="w-full" src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={1920} height={400} />
       </div>
-
+      <BestSeller />
+      <VideoPlayer />
+      <NewArrival/>
       <LayoutGridDemo />
       <ProductWithDesc />
       <InfiniteMovingCardsDemo />

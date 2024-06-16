@@ -8,7 +8,7 @@ import Cta from "./Cta";
 function Footer() {
     return (
         <>
-            <div className="bg-gray-200 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
+            <div className="bg-gray-300 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
                 <div className="p-5">
                     <ul>
                         <div className='w-[10rem]'>
