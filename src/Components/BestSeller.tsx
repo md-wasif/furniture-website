@@ -1,44 +1,95 @@
-import React from 'react';
+"use client";
+import React, { useState, useEffect, useRef } from 'react';
+import BestSellerSofaComp from './BestSellerProductComponent';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-interface imagesurl {
+// Define the type for a sofa item
+interface Sofa {
+  id: number;
+  name: string;
+  category: string;
+  price: string;
   imageUrl: string;
+  url: string;
+  discount: string;
+  tag: string;
 }
 
-const images: imagesurl[] = [
-  {
-    imageUrl:
-      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/qd5srgdjsahvyju9spl0.webp",
-  },
-  {
-    imageUrl:
-      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/r8mgrhvui6bmf6xrf5hf.jpg",
-  },
-  {
-    imageUrl:
-      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823028/website%20assets/BEST%20SELLER/o2sgan30apseqplmu1ro.jpg",
-  },
-  {
-    imageUrl:
-      "https://res.cloudinary.com/dg38njbya/image/upload/v1716823027/website%20assets/BEST%20SELLER/g5p5qysi7wm4xcct4eb9.avif",
-  },
-];
+export default function BestSeller() {
+  const [list, setList] = useState<Sofa[]>([]);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
-function BestSeller() {
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/products');
+        const data = await response.json();
+        console.log(data);
+        setList(data.sofa);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    
+    fetchData();
+  }, []);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({
+        left: -300,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({
+        left: 300,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
-    <>
-      <div className="w-full flex justify-center items-center">
-        <div className="gap-4 md:gap-8 md:h-[60rem] flex flex-col md:flex-wrap justify-center items-center">
-          <h1 className="text-2xl">Best Seller</h1>
-          {images.map((service, index) => (
-            <img key={index} className='w-[22rem]' src={service.imageUrl} alt={`Image ${index + 1}`} />
-          ))}
-          <a href="/sofa">
-            <h1 className="text-2xl">Explore More...</h1>
-          </a>
-        </div>
+    <div className="m-auto w-[90%] py-10 relative">
+      <h1 className="text-xl text-center mb-6">Best Seller</h1>
+      <div
+        className="flex overflow-x-auto space-x-4 p-4 hide-scrollbar"
+        ref={scrollRef}
+        style={{
+          msOverflowStyle: 'none', // IE and Edge
+          scrollbarWidth: 'none', // Firefox
+        }}
+      >
+        {list && list
+        .filter((sofa)=> sofa.tag==='Best Seller')
+        .map((sofa) => (
+          <BestSellerSofaComp
+            key={sofa.id}
+            id={sofa.id}
+            name={sofa.name}
+            category={sofa.category}
+            price={sofa.price}
+            imageUrl={sofa.imageUrl}
+            discount={sofa.discount}
+            tag={sofa.tag}
+          />
+        ))}
       </div>
-    </>
+      <button
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        onClick={scrollLeft}
+      >
+        <FaChevronLeft size={24} />
+      </button>
+      <button
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        onClick={scrollRight}
+      >
+        <FaChevronRight size={24} />
+      </button>
+    </div>
   );
 }
-
-export default BestSeller;
