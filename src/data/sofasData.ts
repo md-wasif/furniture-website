@@ -5,7 +5,7 @@ const sofasData = [
         id: 1, name: 'Sofa 1', description: 'Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.', category: 'Fabric', price: '₹500', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp', 
         images: [
             'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
-            'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp'
+            'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
             // Add more image URLs here if needed
         ], discount: '30', tag: 'Best Seller',
         ProductOverview: [

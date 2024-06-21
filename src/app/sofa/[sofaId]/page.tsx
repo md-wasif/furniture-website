@@ -4,10 +4,9 @@ import { AwaitedReactNode, JSXElementConstructor, Key, ReactElement, ReactNode, 
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import router from 'next/router';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 
-async function getProductDetailsUsingId(productId: string) {
+async function getProductDetailsUsingId(productId: Number) {
   const response = await fetch(`http://localhost:3000/api/product/${productId}`, {
     method: "GET",
   });
@@ -21,9 +20,11 @@ async function getProductDetailsUsingId(productId: string) {
 
 export default function SofaDetails() {
   const pathname = usePathname();
-  const id = pathname.split('/').pop();
+  const num = pathname.split('/').pop() || "default-value";
+  const id: number = parseInt(num, 10);  
   const [product, setProduct] = useState<any>(null);
   const [activeImage, setActiveImage] = useState(0);
+
   const [isWishlisted, setIsWishlisted] = useState(false);
   const [animateHeart, setAnimateHeart] = useState(false);
 
@@ -34,10 +35,6 @@ export default function SofaDetails() {
     }
   }, [id]);
 
-  const handleProductClick = () => {
-    const url = `/sofa/${id}`;
-    router.push(url);
-  };
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -98,8 +95,11 @@ export default function SofaDetails() {
 
     let wishlist = JSON.parse(localStorage.getItem('wishlist') || '[]');
 
+    console.log("type of Id",typeof id);
+
     if (isWishlisted) {
-      wishlist = wishlist.filter((itemId: string) => itemId !== id);
+      wishlist = wishlist.filter((itemId: Number) => itemId !== id);
+      console.log(id);
     } else {
       wishlist.push(id);
     }
@@ -180,9 +180,9 @@ export default function SofaDetails() {
             >
               Order Now
             </a>
-            <div className='flex md:flex-row flex-col justify-between items-center'>
+            <div className='flex md:flex-row flex-col justify-center items-center'>
               <div
-                className={`w-full flex items-center justify-center md:mr-1 mb-2 px-4 py-2 font-semibold rounded-md border ${isWishlisted ? 'bg-red-500 text-white border-red-500 hover:bg-red-600' : 'bg-white text-red-500 border-black hover:bg-red-500 hover:text-white'} ${animateHeart ? 'animate-pop' : ''}`}
+                className={`w-full flex items-center justify-center md:mr-1 md:mb-0 mb-2 px-4 py-2 font-semibold rounded-md border ${isWishlisted ? 'bg-red-500 text-white border-red-500 hover:bg-red-600' : 'bg-white text-red-500 border-black hover:bg-red-500 hover:text-white'} ${animateHeart ? 'animate-pop' : ''}`}
                 onClick={handleWishlistClick}
               >
                 {isWishlisted ? (
