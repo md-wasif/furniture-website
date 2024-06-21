@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebook, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaPhone,FaMapMarkerAlt } from "react-icons/fa";
 import Image from "next/image";
 import Cta from "./Cta";
 
@@ -9,19 +9,20 @@ function Footer() {
     return (
         <>
             <div className="bg-gray-300 h-1/2 w-full flex md:flex-row flex-col justify-around items-start md:p-20">
-                <div className="p-5">
+                <div className="p-5 md:w-1/4">
                     <ul>
                         <div className='w-[10rem]'>
                             <Link href="/">
                                 <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1717052012/xk8julcz94ozzbud8uhu.png" alt="Description" width={200} height={100} />
                             </Link>
                         </div>
-                        <div className="flex justify-center gap-6 pb-5">
+                        <div className="flex justify-start items-center gap-6 pb-5">
                             <a href="https://www.instagram.com/ontop_groups/"><FaInstagram className="text-2xl cursor-pointer text-black hover:text-yellow-500" /></a>
                             <a href="https://www.instagram.com/ontop_groups/"><FaFacebook className="text-2xl cursor-pointer text-black hover:text-blue-500" /></a>
                         </div>
-                        <div className="flex justify-center text-black">
-                            <a href="tel:+1234567890"><FaPhone className="text-2xl cursor-pointer text-black hover:text-blue-300" /></a>+91 1234567890
+                        <div className="flex flex-col justify-center text-black">
+                            <a href="tel:+1234567890" className="flex text-md"><FaPhone className="text-xl cursor-pointer text-black hover:text-blue-300" />+91 1234567890</a><br/>
+                            <a href="" className="text-md flex"><FaMapMarkerAlt className="text-xl mr-1"/>18/k, Topsia Rd, near Albela Biryani, Topsia, Kolkata, West Bengal 700039</a>
                         </div>
                     </ul>
                 </div>
