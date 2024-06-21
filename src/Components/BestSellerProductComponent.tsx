@@ -9,9 +9,10 @@ interface SofaProps {
     price: string;
     imageUrl: string;
     discount: string;
+    tag: string;
 }
 
-const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, imageUrl, discount }) => {
+const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, imageUrl, discount, tag }) => {
     const router = useRouter();
 
     const handleProductClick = () => {
@@ -38,14 +39,14 @@ const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, im
         >
             <div className="relative w-[22rem] h-[22rem] rounded-md overflow-hidden">
                 <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded">
-                    {discount} Off
+                    {discount}% Off
                 </div>
                 <img src={imageUrl} alt={name} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                     Click to view
                 </div>
                 <div className="absolute bottom-2 left-2 bg-blue-700 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Best Seller
+                    {tag}
                 </div>
             </div>
             <div className="flex flex-col justify-between items-start p-2">

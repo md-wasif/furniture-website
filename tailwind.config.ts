@@ -16,6 +16,7 @@ const config: Config = {
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        pop: "pop 0.3s ease-in-out", // Add this line
       },
       keyframes: {
         scroll: {
@@ -23,9 +24,14 @@ const config: Config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        pop: { // Add this keyframes block
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.5)" },
+        },
       },
     },
   },
   plugins: [],
 };
+
 export default config;
