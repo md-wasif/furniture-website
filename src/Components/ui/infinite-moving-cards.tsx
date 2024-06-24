@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "../../../utils/cn";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
@@ -12,6 +13,7 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     image: string;
+    quote: string;
     name: string;
     title: string;
   }[];
@@ -25,7 +27,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  },);
+  }, []);
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -73,27 +75,38 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  md:max-w-7xl w-full overflow-hidden max-w-sm [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex md:min-w-full shrink-0 md:py-3 py-2 w-max flex-nowrap bg-white",
+          " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-full max-w-full flex justify-center items-center relative md:w-[200px] md:h-[25px] h-[2rem]"
-            key={item.name}
-          >
-            <Image src={item.image} alt="" width={200} height={100} className="" />
-          </li>
+          className="w-[250px] max-w-full relative flex-shrink-0 border-slate-700 md:w-[350px] text-black"
+          // style={{
+          //   background:
+          //   "gray",
+          // }}
+          key={item.name}
+        >
+          <div className="flex flex-col justify-center items-center">
+            <Image className="w-full" src={item.image} alt="" width={1920} height={300} />
+            <p className="w-full text-xl text-center py-2">{item.title}</p>
+            <p className="w-full text-xs">{item.quote}</p>
+            <p className="w-full text-center">{item.name}</p>
+          </div>
+          
+        </li>
+        
         ))}
       </ul>
     </div>
   );
-};
+};  
