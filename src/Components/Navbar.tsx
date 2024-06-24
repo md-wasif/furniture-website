@@ -17,9 +17,17 @@ function NavBar() {
         setActivePage(pathname);
     }, [pathname]);
 
+    const navItems = [
+        { path: '/', label: 'Home' },
+        { path: '/sofa', label: 'Sofas' },
+        { path: '/about', label: 'About' },
+        { path: '/contact', label: 'Contact' },
+        { path: '/wishlist', label: 'Wishlist' }
+    ];
+
     return (
         <div>
-            <nav className="w-full bg-white fixed top-0 left-0 right-0 z-50">
+            <nav className="w-full bg-white fixed top-0 left-0 right-0 z-50 border-b border-gray/50">
                 <div className="px-2 mx-auto lg:w-4/5 md:flex md:justify-between md:items-center md:px-0">
                     <div>
                         <div className="flex md:flex-col items-center justify-between md:py-0 py-1 md:py-1 md:block">
@@ -45,11 +53,21 @@ function NavBar() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'} md:block`}
                         >
                             <ul className="h-screen text-black md:h-fit items-center justify-center md:flex relative">
-                                {['/', '/sofa', '/about', '/contact', '/wishlist'].map((path, index) => (
+                                {/* {['/', '/sofa', '/about', '/contact', '/wishlist'].map((path, index) => (
                                     <li key={index} className={`pb-3 text-md py-2 md:px-6 text-center border-b-2 ${activePage === path ? 'border-purple-900' : 'border-transparent'} ${activePage === path ? 'animate-border' : ''}`}>
                                         <Link href={path} onClick={() => setNavbar(false)}>
                                             <div className={path === '/wishlist' ? 'hover:text-black flex justify-center items-center' : ''}>
                                                 {path === '/wishlist' ? <FaRegHeart /> : path.slice(1) || 'Home'}
+                                            </div>
+                                        </Link>
+                                    </li>
+                                ))} */}
+                                {navItems.map((item, index) => (
+                                    <li key={index} className={`pb-3 text-md py-2 md:px-6 text-center border-b-2 ${activePage === item.path ? 'border-purple-900' : 'border-transparent'} ${activePage === item.path ? 'animate-border' : ''}`}>
+                                        <Link href={item.path} onClick={() => setNavbar(false)}>
+                                            <div className={item.path === '/wishlist' ? 'hover:text-black flex justify-center items-center' : ''}>
+                                            {item.path === '/wishlist' ? <FaRegHeart size={20} className="mr-2" /> : null}
+                                                {item.label}
                                             </div>
                                         </Link>
                                     </li>
