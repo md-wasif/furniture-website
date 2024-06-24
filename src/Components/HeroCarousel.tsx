@@ -54,7 +54,7 @@ function HeroCarousel() {
   }, [currentIndex]); 
 
   return (
-    <div className='flex h-15rem pt-2 pl-2'>
+    <div className='flex h-15rem pt-4 pl-2'>
       <div className='max-w-[1200px] h-[580px] w-[60%] m-auto relative group pr-2.5'>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
