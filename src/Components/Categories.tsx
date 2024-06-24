@@ -1,5 +1,6 @@
 // components/Categories.js
 import React from 'react';
+import Image from 'next/image';
 
 const categories = [
     { id: 1, name: 'Sofa 1', category: 'Fabric', price: '$500', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp' },
@@ -22,10 +23,12 @@ const Categories = ({ onSelectCategory }:any) => {
                 className="relative text-center cursor-pointer w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36" 
                 onClick={() => onSelectCategory(category.category)}
             >
-                <img 
+                <Image 
                     src={category.imageUrl} 
                     alt={category.name} 
                     className="w-full h-full object-cover rounded-full transition-transform duration-300 ease-in-out transform hover:scale-110" 
+                    width={500}
+                    height={100}
                 />
                 <div className="absolute bottom-0 w-full text-black font-bold text-center py-1 bg-white bg-opacity-75 rounded-b-full">
                     {category.category}

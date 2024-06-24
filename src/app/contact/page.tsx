@@ -38,7 +38,7 @@ const Contact = () => {
         <div className='md:w-2/3 w-4/5 text-center py-10 text-black flex flex-col justify-center items-center font-serif italic'>
           {/* <Image src="https://res.cloudinary.com/drszvaldf/image/upload/v1715501420/rphqhsy7ykjhcpd0cew4.png" alt="" width={500} height={200} /> */}
         <h1 className='text-3xl p-2 font-bold'>Contact Us to Buy Your Perfect Sofa</h1>
-        <p className='text-xl'>Whether you're looking for style, comfort, or both, we've got the perfect sofa for you. Contact us today!</p>
+        <p className='text-xl'>Whether you&aposre looking for style, comfort, or both, we&aposve got the perfect sofa for you. Contact us today!</p>
 </div>
         <div className="md:w-1/2 w-full mx-auto p-6 bg-transparent text-black">
           <h1 className="text-2xl text-center font-semibold mb-4">Contact Us</h1>

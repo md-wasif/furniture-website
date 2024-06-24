@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface imagesurl {
   imageUrl: string;
@@ -30,7 +31,7 @@ function VerticalProductView() {
         <div className="gap-4 md:gap-8 md:h-[60rem] flex flex-col md:flex-wrap justify-center items-center">
           <h1 className="text-2xl">Best Seller</h1>
           {images.map((service, index) => (
-            <img key={index} className='w-[22rem]' src={service.imageUrl} alt={`Image ${index + 1}`} />
+            <Image key={index} width={300} height={100} className='w-[22rem]' src={service.imageUrl} alt={`Image ${index + 1}`} />
           ))}
           <a href="/sofa">
             <h1 className="text-2xl">Explore More...</h1>

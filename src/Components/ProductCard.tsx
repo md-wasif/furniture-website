@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { FaTrash } from 'react-icons/fa';
-
+import Image from 'next/image';
 
 const ProductCard = ({ product, onRemove }: { product: any; onRemove: () => void }) => {
 
@@ -10,7 +10,7 @@ const ProductCard = ({ product, onRemove }: { product: any; onRemove: () => void
 
   return (
     <div className="rounded-md bg-white text-black overflow-hidden shadow-md">
-      <img src={product.sofa.imageUrl} alt={product.sofa.name} className="w-full h-30 object-cover" />
+      <Image src={product.sofa.imageUrl} alt={product.sofa.name} className="w-full h-30 object-cover" />
       <div className="px-4 py-2 flex justify-between">
         <div >
           <h2 className="text-lg font-semibold mb-2">{product.sofa.name}</h2>

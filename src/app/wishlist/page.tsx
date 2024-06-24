@@ -62,7 +62,7 @@ const WishlistPage: React.FC = () => {
     };
 
     fetchWishlistProducts();
-  }, []);
+  }, [wishlist]);
 
   return (
     <div>

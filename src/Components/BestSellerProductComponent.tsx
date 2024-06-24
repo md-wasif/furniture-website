@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { useRouter } from 'next/navigation';
-
+import Image from 'next/image';
 interface SofaProps {
     id: number;
     name: string;
@@ -41,7 +41,7 @@ const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, im
                 <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded">
                     {discount}% Off
                 </div>
-                <img src={imageUrl} alt={name} className="w-full h-full object-cover" />
+                <Image src={imageUrl} alt={name} width={200} height={100} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                     Click to view
                 </div>

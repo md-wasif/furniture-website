@@ -29,7 +29,7 @@ function About() {
               </div>
               <h1 className="text-2xl text-center">Our Mission</h1>
               <p className="text-center">
-                To provide high-quality and affordable sofas that enhance the comfort and beauty of our customers' homes.
+                To provide high-quality and affordable sofas that enhance the comfort and beauty of our customers&apos homes.
               </p>
             </div>
             <div className="md:w-1/3 flex flex-col justify-center item-center">

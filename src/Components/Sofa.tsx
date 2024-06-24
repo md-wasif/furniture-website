@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
+import Image from "next/image";
 
 interface SofaProps {
   id: number;
@@ -97,7 +98,7 @@ const Sofa: React.FC<SofaProps> = ({
     >
       <div className="relative bg-red-300">
         <div className="overflow-hidden cursor-pointer">
-          <img src={imageUrl} alt={name} className="object-cover" />
+          <Image src={imageUrl} alt={name} width={800} height={100} className="object-cover" />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
           Click to view

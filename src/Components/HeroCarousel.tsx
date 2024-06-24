@@ -45,13 +45,15 @@ function HeroCarousel() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      nextSlide();
+      const isLastSlide = currentIndex === slides.length - 1;
+      const newIndex = isLastSlide ? 0 : currentIndex + 1;
+      setCurrentIndex(newIndex);
     }, 5000); // 5000ms = 5 seconds
 
     return () => {
       clearInterval(interval); // Clear the interval on component unmount
     };
-  }, [currentIndex]); 
+  }, [currentIndex,slides.length]);
 
   return (
     <div className='flex h-15rem pt-4 pl-2'>
