@@ -8,13 +8,17 @@ import Image from 'next/image';
 function HeroCarousel() {
   const slides = [
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/dymfeexnucmxmeeff7jd.jpg',
+      // url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/dymfeexnucmxmeeff7jd.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719051367/website%20assets/Banner/Fabric_Banner_lqynmz.jpg'
+      // url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719229731/website%20assets/Banner/c9ltgtzab9lji7o5yurz.webp'
     },
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/jnv1ahnjf2eozggjycbo.jpg',
+      // url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/jnv1ahnjf2eozggjycbo.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718980770/website%20assets/Banner/Armchair_Banner_o0rhxe.jpg'
     },
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/vtk2rfddr2p0l0lu3erl.webp',
+      // url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882756/website%20assets/SLIDE/vtk2rfddr2p0l0lu3erl.webp',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718607246/website%20assets/Banner/GIFs_Colorful_Couch_p4o0la.gif'
     },
 
     {
@@ -57,10 +61,10 @@ function HeroCarousel() {
 
   return (
     <div className='flex h-15rem pt-4 pl-2'>
-      <div className='max-w-[1200px] h-[580px] w-[60%] m-auto relative group pr-2.5'>
+      <div className='max-w-[1200px] h-[580px] w-[65%] m-auto relative group pr-2.5'>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-          className='w-full h-full bg-center bg-cover duration-500'
+          className='w-full h-full bg-center duration-500'
         ></div>
         {/* Left Arrow */}
         <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 bg-white text-black cursor-pointer'>
@@ -83,10 +87,12 @@ function HeroCarousel() {
       </div>
       <div className='w-[40%] h-full flex flex-col justify-center items-center pt-2'>
         <div className='w-full h-[50%] pr-2'>
-          <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp" alt="" width={1920} height={200} />
+          {/* <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp" alt="" width={1920} height={200} /> */}
+          <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1718974787/website%20assets/Banner/Banner_Discount_rgh1b6.jpg" alt="" width={1920} height={200} />
         </div>
         <div className='w-full h-[50%] pt-2.5 pr-2'>
-          <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp" alt="" width={1920} height={200} />
+          {/* <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp" alt="" width={1920} height={200} /> */}
+          <Image className='w-full h-[290px] object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1719218632/website%20assets/Banner/sofacumbed_banner_gif_xc4qt0.gif" alt="" width={1920} height={200} />
         </div>
       </div>
     </div>
