@@ -22,9 +22,15 @@ export default function Home() {
       <br/>
       <PopularCategories/>
       {/* BANNER */}
-      <div className="w-full py-12">
-        <Image className="w-full" src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" alt="" width={1920} height={400} />
-      </div>
+      <div className="w-full py-12 bg-gray-100">
+            <Image 
+                className="w-full object-cover" 
+                src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" 
+                alt="Banner Image" 
+                width={2140} 
+                height={400} 
+            />
+        </div>
       <BestSeller />
       <VideoPlayer />
       <NewArrival/>

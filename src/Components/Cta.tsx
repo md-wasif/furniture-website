@@ -53,7 +53,7 @@ const Cta = () => {
                 Order Now
             </button>
             {isOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
                     <div className="bg-white p-8 rounded-md w-96" ref={modalRef}>
                         <span className="absolute top-0 right-0 cursor-pointer" onClick={() => setIsOpen(false)}>
                             &times;

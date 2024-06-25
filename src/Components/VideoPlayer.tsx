@@ -13,7 +13,7 @@ const VideoPlayer: React.FC = () => {
                     src="https://res.cloudinary.com/dg38njbya/video/upload/v1718451753/website%20assets/Video/Home_Video_kskiz9.mp4"
                     title="YouTube video player"
                     frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                 ></iframe>
             </div>
