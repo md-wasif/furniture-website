@@ -96,9 +96,9 @@ const Sofa: React.FC<SofaProps> = ({
       className="mb-4 text-black cursor-pointer transition-colors duration-700"
       onClick={handleProductClick}
     >
-      <div className="relative bg-red-300">
+      <div className="relative bg-gray-200">
         <div className="overflow-hidden cursor-pointer">
-          <Image src={imageUrl} alt={name} width={800} height={100} className="object-cover" />
+          <Image src={imageUrl} alt={name} width={800} height={100} className="object-cover" loading="lazy" />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
           Click to view

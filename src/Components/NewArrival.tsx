@@ -76,13 +76,13 @@ export default function NewArrival() {
         ))}
       </div>
       <button
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-20"
         onClick={scrollLeft}
       >
         <FaChevronLeft size={24} />
       </button>
       <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-50"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-2 outline-none focus:outline-none z-1"
         onClick={scrollRight}
       >
         <FaChevronRight size={24} />

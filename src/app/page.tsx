@@ -11,32 +11,37 @@ import Footer from "../Components/Footer";
 import ContactModal from "../Components/Cta";
 import VideoPlayer from "@/Components/VideoPlayer";
 import PopularCategories from "@/Components/PopularCategories";
+import WhatsAppButton from "@/Components/WhatsAppButton";
+import CallNowButton from "@/Components/CallNowButton";
 
 export default function Home() {
   return (
     <>
       <div className="bg-white text-black">
-      <HeroCarousel />
-      {/* <TopCategories /> */}
-      <br/>
-      <br/>
-      <PopularCategories/>
-      {/* BANNER */}
-      <div className="w-full py-12 bg-gray-100">
-            <Image 
-                className="w-full object-cover" 
-                src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png" 
-                alt="Banner Image" 
-                width={2140} 
-                height={400} 
-            />
+        <WhatsAppButton/>
+        <CallNowButton />
+
+        <HeroCarousel />
+        {/* <TopCategories /> */}
+        <br />
+        <br />
+        <PopularCategories />
+        {/* BANNER */}
+        <div className="w-full my-12 bg-gray-100">
+          <Image
+            className="w-full object-cover"
+            src="https://res.cloudinary.com/dg38njbya/image/upload/v1716885829/website%20assets/BEST%20SELLER/hgos60oov3o3zd4tcwlr.png"
+            alt="Banner Image"
+            width={2140}
+            height={200}
+          />
         </div>
-      <BestSeller />
-      <VideoPlayer />
-      <NewArrival/>
-      <LayoutGridDemo />
-      <ProductWithDesc />
-      <InfiniteMovingCardsDemo />
+        <BestSeller />
+        <VideoPlayer />
+        <NewArrival />
+        <LayoutGridDemo />
+        <ProductWithDesc />
+        <InfiniteMovingCardsDemo />
       </div>
     </>
   );
