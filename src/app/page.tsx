@@ -18,12 +18,15 @@ export default function Home() {
   return (
     <>
       <div className="bg-white text-black">
-        <WhatsAppButton/>
+        <WhatsAppButton />
         <CallNowButton />
 
         <HeroCarousel />
         {/* <TopCategories /> */}
         <br />
+        <div className="flex justify-center items-center">
+          <Image src="https://res.cloudinary.com/dg38njbya/image/upload/v1719140299/website%20assets/Delivery/Delivery-Strip-Mobile_jzpobh.png" className="w-3/5" alt="" width={200} height={50} />
+        </div>
         <br />
         <PopularCategories />
         {/* BANNER */}
