@@ -6,19 +6,20 @@ import Image from 'next/image';
 function HeroCarousel() {
   const slides = [
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719051367/website%20assets/Banner/Fabric_Banner_lqynmz.jpg'
+      // url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719051367/website%20assets/Banner/Fabric_Banner_lqynmz.jpg'
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719229731/website%20assets/Banner/c9ltgtzab9lji7o5yurz.webp'
     },
+    // {
+    //   url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718980770/website%20assets/Banner/Armchair_Banner_o0rhxe.jpg'
+    // },
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718980770/website%20assets/Banner/Armchair_Banner_o0rhxe.jpg'
-    },
-    {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718607246/website%20assets/Banner/GIFs_Colorful_Couch_p4o0la.gif'
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1718371818/website%20assets/New%20Arrival/Sine_Living_Room_3_Seater_hb79vv.webp'
     },
     {
       url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716883217/website%20assets/wlsyyztyq83xpl8qjaug.jpg',
     },
     {
-      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716883217/website%20assets/lcpq06u7f1y7ovem44ly.jpg',
+      url: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716882755/website%20assets/SLIDE/fisa3vk7vu0as8z7bucc.jpg',
     },
   ];
 
@@ -70,10 +71,11 @@ function HeroCarousel() {
       </div>
       <div className='w-full lg:w-2/5 flex flex-col justify-center items-center mt-4 lg:mt-0'>
         <div className='w-full h-48 lg:h-[48%] mb-2'>
-          <Image className='w-full h-full object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1718974787/website%20assets/Banner/Banner_Discount_rgh1b6.jpg" alt="Discount Banner" width={1920} height={200} />
+          {/* <Image className='w-full h-full object-cover' src="https://res.cloudinary.com/dg38njbya/image/upload/v1718974787/website%20assets/Banner/Banner_Discount_rgh1b6.jpg" alt="Discount Banner" width={1920} height={200} /> */}
+          <Image className='w-full h-full cover-fit' src="https://res.cloudinary.com/dg38njbya/image/upload/v1719486475/website%20assets/Banner/op7bnf46yeknc9pbgwqh.jpg" alt="Discount Banner" width={1920} height={200} />
         </div>
         <div className='w-full lg:h-[52%] bg-gray-300'>
-          <Image className='w-full h-full object-contain' src="https://res.cloudinary.com/dg38njbya/image/upload/v1719218632/website%20assets/Banner/sofacumbed_banner_gif_xc4qt0.gif" alt="Sofa cum bed" width={1920} height={200} />
+          <Image className='w-full h-full object-contain' src="https://res.cloudinary.com/dg38njbya/image/upload/v1718606887/website%20assets/Banner/banner-gif_tb42fq.webp" alt="Sofa cum bed" width={1920} height={200} />
         </div>
       </div>
     </div>

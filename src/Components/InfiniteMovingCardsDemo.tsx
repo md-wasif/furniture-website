@@ -9,6 +9,7 @@ export function InfiniteMovingCardsDemo() {
       <h1 className="text-xl">
         Testimonials
       </h1>
+      <p>They have already used our products & services</p>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

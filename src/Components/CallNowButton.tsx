@@ -18,6 +18,7 @@ const CallNowButton: React.FC = () => {
             >
                 <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
                 Call Now
+                <p className='ml-2 text-orange-500'>7980412979</p>
             </a>
         </>
     );
