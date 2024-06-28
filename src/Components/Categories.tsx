@@ -8,7 +8,7 @@ const categories = [
     { id: 3, name: 'Sofa 1', category: 'Leatherette', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636843/website%20assets/leatherette%20sofa/dq5k0ocxcc5c3xbkh0d3.webp' },
     { id: 4, name: 'Sofa 1', category: 'Leather', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636837/website%20assets/leather%20sofa/xf5otfqo5lvbttgwx7hh.webp' },
     { id: 5, name: 'Sofa 1', category: 'Sofa Bed', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636859/website%20assets/sofacumbed/j5i3ymylfudkbextcww9.webp' },
-    { id: 6, name: 'Sofa 1', category: 'Sofa Set', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636853/website%20assets/sofa%20set/zmhfx18omex1ek6a2tm5.webp' },
+    { id: 6, name: 'Sofa 1', category: 'L Shaped Sofa', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636853/website%20assets/sofa%20set/zmhfx18omex1ek6a2tm5.webp' },
     { id: 7, name: 'Sofa 1', category: 'Corner Sofa', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636824/website%20assets/corner%20sofa/nnkjvzqglpmlkvcfh1t9.webp' },
     { id: 8, name: 'Sofa 1', category: 'Premium Sofa', price: '$600', imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636850/website%20assets/premium%20sofa/eggk9uoxp464ekepcham.webp' },
     // Add more categories as needed
