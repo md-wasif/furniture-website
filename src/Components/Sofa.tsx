@@ -146,6 +146,7 @@ const Sofa: React.FC<SofaProps> = ({
               {discount} % off
             </span>
           </p>
+          <p>Exclusive of all taxes</p>
         </div>
       </div>
     </div>

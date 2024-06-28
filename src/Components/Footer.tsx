@@ -8,7 +8,7 @@ import Cta from "./Cta";
 function Footer() {
     return (
         <>
-            <div className="bg-gray-200 w-full flex md:flex-row flex-col justify-around items-start md:p-20 p-10">
+            <div className="bg-gray-200 w-full flex md:flex-row flex-col justify-around items-start md:p-10 p-5">
                 <div className="md:w-1/4 mb-10 md:mb-0">
                     <ul>
                         <div className='w-[10rem] mb-4'>
@@ -35,10 +35,19 @@ function Footer() {
                                 Sofa Set
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                                Fabric
+                            </li>
+                            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
                                 Sofa Cum-Bed
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
                                 Wooden Sofa
+                            </li>
+                            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                                L Shaped Sofa
+                            </li>
+                            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                                Chesterfield Sofa 
                             </li>
                             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
                                 Leather Sofa
@@ -63,17 +72,82 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="text-xl font-bold text-black flex flex-col justify-end items-end p-5 md:p-0">
-                    <h1 className="p-2 text-center md:text-right">Transform Your Home with Beauty Furniture</h1>
+                <div className="text-xl font-bold text-black flex flex-col justify-end items-center p-5 md:p-0">
+                    {/* <h1 className="p-2 text-center md:text-right">Transform Your Home with Beauty Furniture</h1> */}
+                    <h1 className="p-2 text-center md:text-right">Décor your home and give a new fresh look.</h1>
                     <Cta />
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-300">
+              {/* Service boxes section */}
+              <div className="w-full flex flex-wrap justify-around items-center py-2 bg-gray-100">
+                <div className="col-6 col-sm-6 col-md-3 mb-5">
+                    <div className="srvs-item">
+                        <div className="media">
+                            <div className="media-left">
+                                <div className="srvs-icon">
+                                    <img src="https://www.royaloakindia.com/media/royaloakindia/images/delivery-truck.png" />
+                                </div>
+                            </div>
+                            <div className="media-body">
+                                <h5>Free Delivery</h5>
+                                <p>When ordering from Rs. 2500.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-6 col-sm-6 col-md-3 mb-5">
+                    <div className="srvs-item">
+                        <div className="media">
+                            <div className="media-left">
+                                <div className="srvs-icon">
+                                    <img src="https://www.royaloakindia.com/media/royaloakindia/images/delavery-icon0.png" />
+                                </div>
+                            </div>
+                            <div className="media-body">
+                                <h5>Easy RETURNS</h5>
+                                <p>If goods have problems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-6 col-sm-6 col-md-3 mb-5">
+                    <div className="srvs-item">
+                        <div className="media">
+                            <div className="media-left">
+                                <div className="srvs-icon">
+                                    <img src="https://www.royaloakindia.com/media/royaloakindia/images/delavery-icon1.png" />
+                                </div>
+                            </div>
+                            <div className="media-body">
+                                <h5>Secure Payment</h5>
+                                <p>100% secure payment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-6 col-sm-6 col-md-3 mb-5">
+                    <div className="srvs-item">
+                        <div className="media">
+                            <div className="media-left">
+                                <div className="srvs-icon">
+                                    <img src="https://www.royaloakindia.com/media/royaloakindia/images/delavery-icon2.png" />
+                                </div>
+                            </div>
+                            <div className="media-body">
+                                <h5>9 am to 7:30 pm | 7 days</h5>
+                                <p>Dedicated support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center text-center p-4 bg-gray-300">
                 <h1 className=" text-gray-800 font-semibold">
-                    © 2024-2025 All rights reserved | Build with ❤ by{" "}
-                    <span className="hover:text-blue-600 font-semibold cursor-pointer">
-                        ontopgroups{""}
-                    </span>
+                    © 2024, Beauty Furniture | All rights reserved. | Terms & Conditions
+                    {/* <span className="hover:text-blue-600 font-semibold cursor-pointer">
+                        Cancela{""}
+                    </span> */}
                 </h1>
             </div>
         </>

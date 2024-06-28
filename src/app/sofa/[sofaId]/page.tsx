@@ -161,9 +161,15 @@ export default function SofaDetails() {
           <div>
             <h1 className="text-3xl font-bold mb-4">{product.sofa.name}</h1>
             <p className='mb-2 text-md'>{product.sofa.description}</p>
-            <p className="mb-2 text-lg font-bold">Category: <span className='font-light'>{product.sofa.category}</span></p>
+            <ul className="list-inline geniune-list mt-4 mb-4 flex flex-wrap justify-start items-center border border-gray-300 rounded-lg pt-2 bg-gray-200 font-medium">
+              <li className="ml-2 mb-2 mr-6 flex-1 min-w-max">100% Genuine Products</li>
+              <li className="mb-2 mr-6 flex-1 min-w-max">{`${product.sofa.category} Sofa`}</li>
+               <li className="mb-2 flex-1 min-w-max">Best Seller</li>
+    </ul>
+
+            {/* <p className="mb-2 text-lg font-bold">Category: <span className='font-light'>{product.sofa.category}</span></p> */}
             <p className="mb-4 text-lg font-bold">
-              Price:
+              ₹{''}
               <span className="mr-1">
                 {calculateDiscountedPrice(product.sofa.price, product.sofa.discount) + '  '}
               </span>
@@ -207,7 +213,7 @@ export default function SofaDetails() {
               </a>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h1 className='text-lg font-bold p-2 border-b border-black'>Product Overview</h1>
             {product?.sofa?.ProductOverview?.map((overview: { size: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; material: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; dimensions: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; weight: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; warranty: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; }, index: Key | null | undefined) => (
               <div className='p-2' key={index}>
@@ -219,6 +225,46 @@ export default function SofaDetails() {
             </div>
             
             ))}
+          </div> */}
+            <div className="product-data mt-4 w-full">
+            <div
+              className="data-item-title active border-b-2 border-gray-300 pb-2 mb-2"
+              role="tab"
+              aria-controls="attributes"
+              aria-selected="false"
+              aria-expanded="true"
+              tabIndex={0}
+            >
+              <a
+                className="data-switch text-lg font-bold"
+                tabIndex={-1}
+                href="#attributes"
+                id="tab-label-attributes-title"
+              >
+                Product Features
+              </a>
+            </div>
+            <div
+              className="data-item-content"
+              aria-labelledby="tab-label-attributes"
+              id="attributes"
+              role="tabpanel"
+              aria-hidden="false"
+            >
+              <div className="product-attribute-features">
+                <div className="value" itemProp="description">
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Fabric</li>
+                    <li>Square Armrest</li>
+                    <li>Horizontal Fluting on Armrest</li>
+                    <li>Durable & Longlasting</li>
+                    <li>Super Soft Cushion</li>
+                    <li>Mahogany Wood</li>
+                    <li>Emperor Collection</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
