@@ -23,7 +23,7 @@ function Footer() {
                         </div>
                         <div className="flex flex-col justify-center text-black">
                             <a href="tel:+1234567890" className="flex text-md"><FaPhone className="text-xl cursor-pointer text-black hover:text-blue-300" />+91- 7980412979</a><br/>
-                            <a href="" className="text-md flex"><FaMapMarkerAlt className="text-xl mr-1"/>18/k, Topsia Rd, near Albela Biryani, Topsia, Kolkata, West Bengal 700039</a>
+                            <a href="" className="text-md flex"><FaMapMarkerAlt className="text-xl mr-1"/>18/k Topsia Road, near Albela Biryani <br></br> Kolkata, West Bengal 700039</a>
                         </div>
                     </ul>
                 </div>

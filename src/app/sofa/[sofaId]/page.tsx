@@ -174,7 +174,7 @@ export default function SofaDetails() {
                 {calculateDiscountedPrice(product.sofa.price, product.sofa.discount) + '  '}
               </span>
               <span className="line-through font-light text-sm">{product.sofa.price}</span> {' '}
-              <span className='py-1 px-2 rounded-lg bg-green-500 text-white text-sm'>{product.sofa.discount}% Off</span>
+              <span className='py-1 px-2 rounded-lg bg-green-500 text-white text-sm'>{product.sofa.discount}% OFF</span>
             </p>
           </div>
 

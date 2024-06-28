@@ -39,7 +39,7 @@ const BestSellerSofaComp: React.FC<SofaProps> = ({ id, name, category, price, im
         >
             <div className="relative w-[22rem] h-full rounded-md overflow-hidden">
                 <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded">
-                    {discount}% Off
+                    {discount}% OFF
                 </div>
                 <Image src={imageUrl} alt={name} width={200} height={100} className="w-full md:h-[22rem] h-[18rem] object-cover" />
                 <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">

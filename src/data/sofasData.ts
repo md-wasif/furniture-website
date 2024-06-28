@@ -108,25 +108,21 @@ const sofasData = [
   //  },
   {
     id: 4,
-    name: "Beauty Furniture Nathanoy L Shape Sectional Sofa",
+    name: "Beauty Furniture Nathanoy L Shaped Sectional Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
-    category: "Fabric",
-    price: "₹500",
+      "Transform your living space with the Beauty Furniture Nathanoy L Shape Sectional Sofa. This stylish and versatile sofa offers ample seating and comfort with its plush cushions and durable fabric upholstery. Perfect for modern homes, its sleek design and sturdy construction make it a standout piece. Upgrade your decor with this functional and elegant sectional sofa today.",
+    category: "Leatherette",
+    price: "₹19383.08",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/1_dgrhtejh_g287z4.jpg",
-    discount: "10",
+    discount: "35",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719139867/website%20assets/Fabric/Jattebo%20U%20shaped%20Sofa/PH183253_azandx.avif',
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/1_dgrhtejh_g287z4.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/3gjytfjuyrtjuy_pstzqf.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/5ngngng_tru6ym.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/4tyuuriui_n0roh2.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Nathanoy%20L%20Shape%20Sofa/2jgjtjyrjuj_q1o91b.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -166,25 +162,21 @@ const sofasData = [
     id: 5,
     name: "Beauty Furniture Fabric Sectional L Shape Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Enhance your living space with the Fabric Sectional L Shape Sofa (3 + Lounger). This modern and stylish sectional offers ample seating for comfort and relaxation. Crafted with high-quality fabric and a sturdy frame, it’s perfect for contemporary homes. The included lounger adds extra luxury, making it an ideal choice for any living room.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹47500",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130705/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/Fabric_Sectional_L_Shape_Sofa-Main_cic5en.webp",
-    discount: "10",
+    discount: "40",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130705/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/Fabric_Sectional_L_Shape_Sofa-Main_cic5en.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719130693/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/05_1f843f8c-4369-4de3-94f6-0fc7226f7303_xeusvt.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130703/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/02_ee68677b-4ad4-4720-97fb-a859e715e1c9_wlvkwn.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130695/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/02_245407ed-7097-4d67-b35c-74bb4f9c9abc_otyabk.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130704/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/bold-yellow-147_0fdec74e-87f0-4780-a0ea-647a69e3f1ec_t3mcnz.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130700/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/charcoal-grey-170_c1a94fe6-92a2-497e-8922-172bda90a41e_gybq0c.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130699/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/cara-brown-137_14a70e67-a47e-4e9a-95c6-2f0d159e2ca1_fdhqf2.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130698/website%20assets/Fabric/Fabric%20Sectional%20L%20Shape%20Sofa/blood-maroon-101_f4aaa364-b0a3-4a6d-b025-b4ecb6010daa_lmbswb.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -200,20 +192,17 @@ const sofasData = [
     id: 6,
     name: "Beauty Furniture Vedic L Shape Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
-    category: "Fabric",
-    price: "₹500",
+      "Elevate your home decor with the Beauty Furniture Vedic L Shape Sheesham Wood Sofa with Cane in a Honey Finish. This elegant sofa combines traditional craftsmanship with modern design. The Sheesham wood frame ensures durability, while the cane accents add a touch of sophistication. Perfect for contemporary and classic interiors, this L-shaped sofa offers both style and comfort. Ideal for any living space, it’s a standout piece that enhances your home's aesthetic.",
+    category: "Wooden Sofa",
+    price: "₹52500",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143945/website%20assets/Wooden%20Sofas/Vedic%20L%20Shape%20Sofa/fabric-sofa_Mellisa-fabric-sofa_l-shape_honey_rhynnq.jpg",
-    discount: "10",
+    discount: "39",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143882/website%20assets/Wooden%20Sofas/Vedic%20L%20Shape%20Sofa/data_fabric-sofa_Mellisa-fabric-sofa_l-shape_honey_new-logo_1-810x702_yscvug.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143890/website%20assets/Wooden%20Sofas/Vedic%20L%20Shape%20Sofa/data_fabric-sofa_Mellisa-fabric-sofa_l-shape_honey_new-logo_2-810x702_aqcfsx.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143941/website%20assets/Wooden%20Sofas/Vedic%20L%20Shape%20Sofa/data_fabric-sofa_Mellisa-fabric-sofa_l-shape_honey_new-logo_4-810x702_stxnbn.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -229,20 +218,18 @@ const sofasData = [
     id: 7,
     name: "Beauty Furniture Nicobar Three Seater Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Enhance your living space with the Nicobar three-seater sofa from Beauty Furniture in elegant grey. This sofa offers exceptional comfort with its plush cushions and sturdy construction. Its modern design and sleek lines make it a perfect addition to any contemporary home decor. Ideal for relaxing or entertaining, the Nicobar sofa combines style and functionality seamlessly.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹28750",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130893/website%20assets/Fabric/Norway%20Sofa/norway-3-seater-sofa-gir-ash-front-view-copy-602547l-copy-104274_l_vccjxw.jpg",
-    discount: "10",
+    discount: "20",
     tag: "Best Seller",
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130893/website%20assets/Fabric/Norway%20Sofa/norway-3-seater-sofa-gir-ash-front-view-copy-602547l-copy-104274_l_vccjxw.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130892/website%20assets/Fabric/Norway%20Sofa/norway-3-seater-sofa-gir-ash-front-three-forth--view-495556l-copy-572477_l_dwz4sl.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130890/website%20assets/Fabric/Norway%20Sofa/norway-3-seater-sofa-gir-ash-back-three-forth-view-897882_l_zonk8s.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130891/website%20assets/Fabric/Norway%20Sofa/norway-3-seater-sofa-gir-ash-detail--view-746997_l_yvxonx.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -258,22 +245,18 @@ const sofasData = [
     id: 8,
     name: "Beauty Furniture Peppermint Sofa Set",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Elevate your living space with the Beauty Furniture Peppermint Straight Line Sofa Set in striking blue. Available in both 2-seater and 3-seater options, this sofa set offers a perfect blend of style and comfort. The straight-line design provides a modern, sleek look, while the high-quality upholstery ensures durability and easy maintenance. The plush cushions and sturdy frame promise long-lasting comfort and support, making it an ideal choice for any contemporary home. Transform your living room with the Beauty Furniture Peppermint Sofa Set and enjoy the perfect balance of aesthetics and functionality.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹20665.33",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132106/website%20assets/Fabric/Peppermint%20Sofa%20Set/image_35ec0c13-cd0a-438a-abea-e7cdc56f3635_1000x_ieq16p.webp",
-    discount: "10",
+    discount: "25",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132106/website%20assets/Fabric/Peppermint%20Sofa%20Set/image_35ec0c13-cd0a-438a-abea-e7cdc56f3635_1000x_ieq16p.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132104/website%20assets/Fabric/Peppermint%20Sofa%20Set/image_0af5822e-0cc9-4a14-9413-1044ad457e0b_1800x1800_sgm1ym.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132105/website%20assets/Fabric/Peppermint%20Sofa%20Set/image_2d8ec17a-a9d0-41eb-b4fe-ae31b9480394_1800x1800_zw5xuj.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132107/website%20assets/Fabric/Peppermint%20Sofa%20Set/image_dfed92b1-6982-447b-b744-bbced1c698c9_1800x1800_ckgn8o.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719132215/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/1_ebd55bff-d25f-422f-86ca-b74877a0d9bd_800x_a3xl1r.webp'
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -290,22 +273,19 @@ const sofasData = [
     id: 9,
     name: "Beauty Furniture Black Chesterfield Linen Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Elevate your living space with the Beauty Furniture Black Chesterfield Linen Sofa. This elegant piece combines classic design with modern comfort, featuring luxurious black linen upholstery and timeless Chesterfield tufting. Its sturdy frame ensures durability, while the plush cushions provide exceptional comfort. Perfect for both contemporary and traditional interiors, this sofa adds a touch of sophistication and elegance to any room. Upgrade your home decor with the Beauty Furniture Black Chesterfield Linen Sofa and experience the perfect blend of style and functionality.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹24000",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132208/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/4_3b6d6ef9-4daa-496d-af6e-425e5d076108_800x_yszlvx.webp",
-    discount: "10",
+    discount: "25",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132208/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/4_3b6d6ef9-4daa-496d-af6e-425e5d076108_800x_yszlvx.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132175/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/2_c1153f20-9aca-4630-99c6-03190d5f39c0_800x_haulnz.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132096/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/6_cb3b9a72-ad88-4ddf-b30b-312bf487e5fb_800x_reejmt.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132209/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/5_fc1b4e6b-ab0e-48b0-bbb7-ca2c9bf874ed_800x_f2cch4.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132215/website%20assets/Fabric/Balck%20Chesterfield%20Linen%20Sofa/1_ebd55bff-d25f-422f-86ca-b74877a0d9bd_800x_a3xl1r.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -321,19 +301,18 @@ const sofasData = [
     id: 10,
     name: "Beauty Furniture Kia Modern Sofa",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Experience luxury and comfort with the Kia Modern Set in Suede by Beauty Furniture. This exquisite set features plush suede material that offers a soft and inviting touch. The modern design, combined with the rich texture of suede, adds a sophisticated look to any living space. The sturdy construction ensures lasting durability, while the generously padded cushions provide ultimate relaxation. Perfect for contemporary homes, the Kia Modern Set in Suede effortlessly enhances your decor with its stylish elegance and superior comfort. Upgrade your home with this chic and cozy set from Beauty Furniture.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹23570",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132163/website%20assets/Fabric/Kia%20Modern%20Sofa%20Set/undef_src_sa_picid_732200_x_1000_type_color_image_1024x1024_207f11db-f5bf-4c73-a4d0-fc8e767ca322_1000x_pnemvg.webp",
-    discount: "10",
+    discount: "30",
     tag: "Best Seller",
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132163/website%20assets/Fabric/Kia%20Modern%20Sofa%20Set/undef_src_sa_picid_732200_x_1000_type_color_image_1024x1024_207f11db-f5bf-4c73-a4d0-fc8e767ca322_1000x_pnemvg.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132098/website%20assets/Fabric/Kia%20Modern%20Sofa%20Set/undef_src_sa_picid_732204_x_1000_type_whitesh_image_1024x1024_fa01544b-f173-404b-8927-00f64603e157_1800x1800_e2mmod.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132099/website%20assets/Fabric/Kia%20Modern%20Sofa%20Set/undef_src_sa_picid_732212_x_1800_type_whitesh_imagegt_1024x1024_9c5ff297-159d-474f-be0c-de7f855e3d19_1800x1800_eaijlf.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132245/website%20assets/Fabric/Kia%20Modern%20Sofa%20Set/undef_src_sa_picid_732223_x_1800_type_whitesh_image_1024x1024_7e69b24d-d570-47c2-bffa-cd11b30269b2_1800x1800_t2jew5.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -347,11 +326,11 @@ const sofasData = [
   },
   {
     id: 11,
-    name: "Beauty Furniture Azalsa Sofa Set(3S)",
+    name: "Beauty Furniture Azalsa Sofa Teal Blue",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
+      "Discover luxury and comfort with the Azalsa Sofa in teal blue velvet fabric. Designed for modern living rooms, this sofa combines plush velvet upholstery with a contemporary silhouette, creating a sophisticated centerpiece for any space. Perfect for lounging or hosting guests, its rich teal color adds a touch of elegance to your home décor. Explore the Azalsa Sofa today and elevate your living room with timeless style and unmatched comfort.",
     category: "Fabric",
-    price: "₹500",
+    price: "₹48141.66",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132236/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/1ssds_vv9xhc.jpg",
     images: [
@@ -360,7 +339,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132192/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/3_xcs_bamylk.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132192/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/3_xcs_bamylk.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132142/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/4cfew_p8oz2q.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -371,25 +349,24 @@ const sofasData = [
         warranty: "2 Years",
       },
     ],
-    discount: "10",
+    discount: "40",
     tag: "Best Seller",
   },
   {
     id: 12,
-    name: "Beauty Furniture Azalsa Sofa Set(3S)",
+    name: "Beauty Furniture Azalsa Sofa Berry Red",
     description:
-      "Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.",
-    category: "Wooden",
-    price: "₹700",
+      "Discover luxury and comfort with the Azalsa Sofa in berry red velvet fabric. Designed for modern living rooms, this sofa combines plush velvet upholstery with a contemporary silhouette, creating a sophisticated centerpiece for any space. Perfect for lounging or hosting guests, its rich teal color adds a touch of elegance to your home décor. Explore the Azalsa Sofa today and elevate your living room with timeless style and unmatched comfort.",
+    category: "Fabric",
+    price: "₹48141.66",
     imageUrl:
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132234/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/1_furny_azalsa_3_seater_velvet_fabric_sofa_set_berry_red__hxeodv.jpg",
-    discount: "10",
+    discount: "40",
     tag: "Best Seller",
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132234/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/1_furny_azalsa_3_seater_velvet_fabric_sofa_set_berry_red__hxeodv.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132190/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/2furny_azalsa_3_seater_velvet_fabric_sofa_set_berry_red__b0lyte.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132144/website%20assets/Fabric/Azalsa%203%20Seater%20Sofa%20Set/4_furny_azalsa_3_seater_velvet_fabric_sofa_set_berry_red__h1wk1z.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -401,29 +378,6 @@ const sofasData = [
       },
     ],
   },
-  //  { id: 13, name: 'Beauty Furniture L Shaped Sectional Sofa Cum Bed', description: 'Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.', category: 'Fabric', price: '₹500',
-  //     imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719130653/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/sofa-beds_henry_qn3ddj.jpg', discount: '10', tag: 'Best Seller',
-  //     images: [
-  //         // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
-  //         // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719139867/website%20assets/Fabric/Jattebo%20U%20shaped%20Sofa/PH183253_azandx.avif',
-  //         // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719130653/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/sofa-beds_henry_qn3ddj.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719130652/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_new-logo_3-810x702_ehlpm6.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719130648/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_2-810x702_f9bjns.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719130649/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_7-810x702_phw6sr.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719130650/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_8-810x702_slb1wq.jpg'
-  //         // Add more image URLs here if needed
-  //     ],
-  //     ProductOverview: [
-  //         {
-  //             size: '3-Seater',
-  //             material: 'High-Quality Fabric',
-  //             dimensions: '84 x 35 x 34 inches',
-  //             weight: '75 kg',
-  //             warranty: '2 Years'
-  //         }
-  //     ]
-  //  },
   {
     id: 13,
     name: "Beauty Furniture Henry Sofa (3S)",
@@ -436,13 +390,10 @@ const sofasData = [
     discount: "10",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130656/website%20assets/Fabric/Henry%203%20Seater%20Sofa/data_fabric-sofa_henry-fabric-sofa_olive-gold_updated_2-new-810x702_fodwwb.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130657/website%20assets/Fabric/Henry%203%20Seater%20Sofa/data_fabric-sofa_henry-fabric-sofa_olive-gold_updated_Henry-3-Seater-Sofa-810x702_c0yjbb.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130656/website%20assets/Fabric/Henry%203%20Seater%20Sofa/data_fabric-sofa_henry-fabric-sofa_olive-gold_updated_Brown-810x702_zxx0k1.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130655/website%20assets/Fabric/Henry%203%20Seater%20Sofa/data_A-website-fabric-shoot_Chestnut-brown_1-810x702_cwntwx.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -470,7 +421,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143948/website%20assets/Wooden%20Sofas/Wooden%20Valvet%20Grey%20Sofa/10_437775de-c6b9-4fc8-8b5e-f34c6d90fd8c_800x_luz0nd.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143955/website%20assets/Wooden%20Sofas/Wooden%20Valvet%20Grey%20Sofa/9_de687692-b01d-4a03-b073-8754794739a8_800x_v9txis.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143952/website%20assets/Wooden%20Sofas/Wooden%20Valvet%20Grey%20Sofa/11_db8d6599-f5d5-4d7b-8d7d-796779ff3d87_800x_ttntvk.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -498,9 +448,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143809/website%20assets/Wooden%20Sofas/Maria%20Wooden%20Sofa/royaloak-maria-wooden-sofa-3s-5_ximdtq.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143812/website%20assets/Wooden%20Sofas/Maria%20Wooden%20Sofa/royaloak-maria-wooden-sofa-3s-8_voovve.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143816/website%20assets/Wooden%20Sofas/Maria%20Wooden%20Sofa/royaloak-maria-wooden-sofa-3s-9_oqhwrl.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/5_172_5_w4k1kf.jpg',
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/6_142_3_u5jxiu.jpg'
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -512,27 +459,6 @@ const sofasData = [
       },
     ],
   },
-  //  { id: 15, name: 'Beauty Furniture Elizalina L Shape Sofa(3 + 2S)', description: 'Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.', category: 'Wooden', price: '₹700',
-  //     imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719148172/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/1_226_5_psxars.jpg', discount: '10', tag: 'Best Seller',
-  //     images: [
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148172/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/1_226_5_psxars.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/2_218_4_vfw9yj.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/3_215_4_d3e3ze.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/4_188_5_lw8kao.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/5_172_5_w4k1kf.jpg',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Elizalina%205%20Seater%20L%20Shape%20Sofa/6_142_3_u5jxiu.jpg'
-  //         // Add more image URLs here if needed
-  //     ],
-  //     ProductOverview: [
-  //         {
-  //             size: '3-Seater',
-  //             material: 'High-Quality Fabric',
-  //             dimensions: '84 x 35 x 34 inches',
-  //             weight: '75 kg',
-  //             warranty: '2 Years'
-  //         }
-  //     ]
-  //  },
   {
     id: 16,
     name: "Beauty Furniture Marine Sofa Cum Bed",
@@ -546,11 +472,9 @@ const sofasData = [
     tag: "New Arrival",
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143604/website%20assets/Fabric/Marine%20Sofa%20Cum%20Bed/image_1d42ae14-88ce-41a4-b671-3debc5f3aefe_1800x1800_pl1bot.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143610/website%20assets/Fabric/Marine%20Sofa%20Cum%20Bed/image_fb3a5bab-8a8c-4d58-b7d6-7c5a915616c5_1800x1800_c3jvot.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143607/website%20assets/Fabric/Marine%20Sofa%20Cum%20Bed/image_9183a295-f759-4978-bc13-64216e5e742a_1800x1800_lv8xg9.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143614/website%20assets/Fabric/Marine%20Sofa%20Cum%20Bed/image_b2772bd8-0204-446a-a3cb-b0840e7164da_1800x1800_nil4xs.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -580,7 +504,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132243/website%20assets/Fabric/Sofa%20Cum%20Bed/379281683799612_ca140d.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132258/website%20assets/Fabric/Sofa%20Cum%20Bed/86241683799615_onm4sm.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132231/website%20assets/Fabric/Sofa%20Cum%20Bed/253531701687663_ygmrae.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -604,15 +527,11 @@ const sofasData = [
     discount: "10",
     tag: "Best Seller",
     images: [
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719139867/website%20assets/Fabric/Jattebo%20U%20shaped%20Sofa/PH183253_azandx.avif',
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130653/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/sofa-beds_henry_qn3ddj.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130652/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_new-logo_3-810x702_ehlpm6.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130648/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_2-810x702_f9bjns.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130649/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_7-810x702_phw6sr.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130650/website%20assets/Fabric/L-Shaped%20Sofa%20Bed/data_sofa-beds_henry-right-aligned-convertible-sofa-cum-bed-with-storage-velvet-salmon-pink_8-810x702_slb1wq.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -624,23 +543,6 @@ const sofasData = [
       },
     ],
   },
-  // { id: 18, name: 'Beauty Furniture Curved Sofa(3S)', description: 'Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.', category: 'Wooden', price: '₹700',
-  //     imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636866/website%20assets/wooden%20sofa/ybmj9of8auaqfey1cdd6.webp', discount: '10', tag: 'New Arrival',
-  //     images: [
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/rq6jlb6miocjw0p2jnzj.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-  //         // Add more image URLs here if needed
-  //     ],
-  //     ProductOverview: [
-  //         {
-  //             size: '3-Seater',
-  //             material: 'High-Quality Fabric',
-  //             dimensions: '84 x 35 x 34 inches',
-  //             weight: '75 kg',
-  //             warranty: '2 Years'
-  //         }
-  //     ]
-  //  },
   {
     id: 19,
     name: "Beauty Furniture Texas Signature Sofa Set",
@@ -660,7 +562,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148217/website%20assets/Leather/Texas%20Signature%20Sofa%20Set/dsc_6668_copy1_copy_2_2_pzvedy.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148218/website%20assets/Leather/Texas%20Signature%20Sofa%20Set/dsc_6681_copy_3_1_1_vgzfjn.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148218/website%20assets/Leather/Texas%20Signature%20Sofa%20Set/dsc_6675_copy_3_2_iduizp.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -692,7 +593,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148173/website%20assets/Leatherette/Leatherette%203%20Seater%20Sofa/royaloak-hanoi-vietnam-leatherette-sofa-3-seater-4_hmfrib.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148174/website%20assets/Leatherette/Leatherette%203%20Seater%20Sofa/royaloak-hanoi-vietnam-leatherette-sofa-3-seater-5_jkryxp.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148174/website%20assets/Leatherette/Leatherette%203%20Seater%20Sofa/royaloak-hanoi-vietnam-leatherette-sofa-3-seater-5_jkryxp.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -722,7 +622,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148219/website%20assets/Leather/Richmond%20Sofa/272445_l_o2nmqs.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148219/website%20assets/Leather/Richmond%20Sofa/561855_l_zeotnx.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148219/website%20assets/Leather/Richmond%20Sofa/785265_l_lku0gv.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -749,7 +648,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100617581665079123_84430_kzf1tk.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100615061665068805_99505_engpug.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100615071665068825_53463_nnzwhm.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -779,7 +677,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148177/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100614581665068330_73116_peb7nf.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148177/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100614581665068330_73116_peb7nf.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148178/website%20assets/Leatherette/Lorraine%20Sofa/product_2022100614581665068330_88037_rqyosp.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -808,7 +705,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130673/website%20assets/Fabric/Sepang%20Malaysian%20Sofa%20set/sf201928-3-0009_1_uxu8rw.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130672/website%20assets/Fabric/Sepang%20Malaysian%20Sofa%20set/sf201928-3-0010_1_x0b0ep.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130672/website%20assets/Fabric/Sepang%20Malaysian%20Sofa%20set/sf201928-3-0007_1_sbxqjk.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -840,7 +736,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148174/website%20assets/Leatherette/Julian%20Sofa%20Set/175961682167541_txldp9.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148176/website%20assets/Leatherette/Julian%20Sofa%20Set/781431682167406_j4qtll.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148175/website%20assets/Leatherette/Julian%20Sofa%20Set/269051682167411_aihjtu.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -868,7 +763,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148223/website%20assets/Leather/Valerano%20Recliner%20Sofa/95391706337887_eff4qu.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148219/website%20assets/Leather/Valerano%20Recliner%20Sofa/453211706792140_k3qzax.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148221/website%20assets/Leather/Valerano%20Recliner%20Sofa/490281706335308_al2vh5.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -922,8 +816,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482811/website%20assets/Fabric/Premium%20L%20Shaped%20Sofa/hikrjjrispgyznjmd06i.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482811/website%20assets/Fabric/Premium%20L%20Shaped%20Sofa/s6jcxpbtmktorxqnf8zz.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482811/website%20assets/Fabric/Premium%20L%20Shaped%20Sofa/gtopkag4hiqs9vtzpric.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1719131996/website%20assets/Fabric/Vimle%20Chaise%20Longue%20Sofa/vimle-4-seat-sofa-with-chaise-longue-saxemara-light-blue__0949411_pe799699_s5_hhg5q1.avif'
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -952,7 +844,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719131993/website%20assets/Fabric/Vimle%20Chaise%20Longue%20Sofa/vimle-4-seat-sofa-with-chaise-longue-hallarp-beige__0951706_pe801357_s5_k66ckz.avif",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719131991/website%20assets/Fabric/Vimle%20Chaise%20Longue%20Sofa/vimle-4-seat-sofa-with-chaise-longue-hallarp-beige__0949395_pe799704_s5_onmkdu.avif",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719131992/website%20assets/Fabric/Vimle%20Chaise%20Longue%20Sofa/vimle-4-seat-sofa-with-chaise-longue-hallarp-beige__0949396_pe799707_s5_vcddgx.avif",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -980,7 +871,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130880/website%20assets/Fabric/Malaysian%20Corner%20Sofa/sf201923-c_00687_copy_px3n8b.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130882/website%20assets/Fabric/Malaysian%20Corner%20Sofa/sf201923-c_00832_gfnxve.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130881/website%20assets/Fabric/Malaysian%20Corner%20Sofa/sf201923-c_00729_copy_uonach.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1008,7 +898,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132174/website%20assets/Fabric/Berlin%20L%20shape%20Sofa/4_212_igfgqk.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132179/website%20assets/Fabric/Berlin%20L%20shape%20Sofa/3_265_vf9q54.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132136/website%20assets/Fabric/Berlin%20L%20shape%20Sofa/5_187_orjtvr.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1036,7 +925,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132201/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/80081708667238_yovvnd.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132224/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/531381708667240_zwyjmc.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132263/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/551709273864_adxfde.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1066,7 +954,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431434/website%20assets/Fabric/Burberry%20Spring%20Corner%20Sofa/yjbxrjctrmdiapkzby7h.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431434/website%20assets/Fabric/Burberry%20Spring%20Corner%20Sofa/yjbxrjctrmdiapkzby7h.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431435/website%20assets/Fabric/Burberry%20Spring%20Corner%20Sofa/sdscgoirmisncynuz3sl.png",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1078,26 +965,6 @@ const sofasData = [
       },
     ],
   },
-  //  { id: 34, name: 'Beauty Furniture Somerset Adjustable Headrest Sofa', description: 'Elevate your home spa experience with Beauty Furniture. Our luxurious furniture is designed for comfort, function, and timeless style. From plush vanities to adjustable stools, discover everything you need to create your perfect beauty retreat.', category: 'Leather', price: '₹600',
-  //     imageUrl: 'https://res.cloudinary.com/dg38njbya/image/upload/v1719139005/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/386141709704546_mrkhaa.webp', discount: '10',
-  //     images: [
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719139005/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/386141709704546_mrkhaa.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719139021/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/49281709727694_hyi1ck.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719132201/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/80081708667238_yovvnd.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719132201/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/80081708667238_yovvnd.webp',
-  //         'https://res.cloudinary.com/dg38njbya/image/upload/v1719132263/website%20assets/Fabric/Somerset%20Adjustable%20Headrest%20Sofa/551709273864_adxfde.webp'
-  //         // Add more image URLs here if needed
-  //     ],
-  //     ProductOverview: [
-  //         {
-  //             size: '3-Seater',
-  //             material: 'High-Quality Fabric',
-  //             dimensions: '84 x 35 x 34 inches',
-  //             weight: '75 kg',
-  //             warranty: '2 Years'
-  //         }
-  //     ]
-  // },
   {
     id: 34,
     name: "Beauty Furniture Carolina Foam Corner Sofa",
@@ -1228,7 +1095,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431744/website%20assets/Fabric/Gladia%20Foam%20Corner%20Sofa%20Set/s0bvitscr7nzacb07pt5.png",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431744/website%20assets/Fabric/Gladia%20Foam%20Corner%20Sofa%20Set/thfhdhqznjf8vdvfp7r5.png",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719431744/website%20assets/Fabric/Gladia%20Foam%20Corner%20Sofa%20Set/pj3khsmuo7tyxyrv3utm.png",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/f_auto,q_auto/v1/website%20assets/Fabric/Gladia%20Foam%20Corner%20Sofa%20Set/pj3khsmuo7tyxyrv3utm'
     ],
     ProductOverview: [
       {
@@ -1364,7 +1230,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130707/website%20assets/Fabric/Richmond%20Sofa/richmond-3s-sofa---gir-steel---back-three-fourth-view-1974904101046063_l_n3vvul.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130708/website%20assets/Fabric/Richmond%20Sofa/richmond-3s-sofa---gir-steel---back-view-1974909343268573_l_psdyr4.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130711/website%20assets/Fabric/Richmond%20Sofa/richmond-3s-sofa---gir-steel---detail-view-1974918468491012_l_e6k7r7.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1390,7 +1255,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132103/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-5_1000x_iihddn.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132101/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-11_1800x1800_uxrk2n.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132205/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-3_1800x1800_ojqb4n.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1416,7 +1280,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132102/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-12_1800x1800_uksiqj.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132187/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-9_1800x1800_wz3yyc.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132185/website%20assets/Fabric/Ronaldo%20Chesterfield%20Sofa%20Set/ferranti-modern-three-seater-sofa-8_1800x1800_btxetk.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1444,7 +1307,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130691/website%20assets/Fabric/Tufted%20Sofa/fgfg_2ab4cf28-3940-4b22-8fec-efdc9d64e963_afxzin.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130678/website%20assets/Fabric/Tufted%20Sofa/3_Seater_Angle_Stone_Grey_Wood_Leg_g5spdz.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130680/website%20assets/Fabric/Tufted%20Sofa/3_Seater_Close_Up_Stone_Grey_Wood_Leg_ehn93o.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1471,7 +1333,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130677/website%20assets/Fabric/Tufted%20Sofa/3_Seater_Angle_Ivory_Wood_leg_nnhp2e.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719130679/website%20assets/Fabric/Tufted%20Sofa/3_Seater_Close_Up_Ivory_Wood_leg_omyuzf.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1525,7 +1386,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132195/website%20assets/Fabric/Rolex%20Tufted%20Sofa%20Set/image_4dd640c9-18f8-42ed-a223-962fd41be3d1_1800x1800_zvsnu0.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132196/website%20assets/Fabric/Rolex%20Tufted%20Sofa%20Set/image_6c308b40-8502-4664-be12-0a5419aa6c31_1800x1800_zbvs7b.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132222/website%20assets/Fabric/Rolex%20Tufted%20Sofa%20Set/image_08a68f73-353a-463a-9804-e247c0eee85d_1800x1800_naq4m0.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1555,7 +1415,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132128/website%20assets/Fabric/Geneva%20Corner%20Sofa/13_8_sb8dbw.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132132/website%20assets/Fabric/Geneva%20Corner%20Sofa/4_46_fhvpkc.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132131/website%20assets/Fabric/Geneva%20Corner%20Sofa/3_51_rp5ahj.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1581,7 +1440,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132238/website%20assets/Fabric/Orlando%20L%20Shape%20Sofa%20Set/1_394_wn11ni.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132226/website%20assets/Fabric/Orlando%20L%20Shape%20Sofa%20Set/3_391_alhtsj.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132220/website%20assets/Fabric/Orlando%20L%20Shape%20Sofa%20Set/2_396_kav3ls.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1635,7 +1493,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148177/website%20assets/Leatherette/Leatherette%20Sectional%20Sofa/FNSF53ANGY3_-_main_1_n40tqo.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148177/website%20assets/Leatherette/Leatherette%20Sectional%20Sofa/FNSF53ANGY3_-_main_4_y3m4uk.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148177/website%20assets/Leatherette/Leatherette%20Sectional%20Sofa/FNSF53ANGY3_-_main_3_lhymav.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1665,7 +1522,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719139236/website%20assets/Fabric/Recliner%20Sofa/394991708515901_s7q7wt.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132227/website%20assets/Fabric/Recliner%20Sofa/141471708515907_jkbccl.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719139274/website%20assets/Fabric/Recliner%20Sofa/811191708515909_ohrbgp.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1723,7 +1579,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143822/website%20assets/Wooden%20Sofas/Texas%20Wooden%20Sofa/sf102-3s_2__cdvoxa.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143833/website%20assets/Wooden%20Sofas/Texas%20Wooden%20Sofa/sf102-3s_6__tlztwf.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719143819/website%20assets/Wooden%20Sofas/Texas%20Wooden%20Sofa/royaloak-texas-american-wooden-sofa-3s-8_xtaf0l.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1751,7 +1606,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Recliner%20Sofa/FVSFRS53TB20440_1_qzsieq.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Recliner%20Sofa/FVSFRS53TB20440_3_pekau2.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719148179/website%20assets/Leatherette/Recliner%20Sofa/FVSFRS53TB20440_5_t2mhs8.jpg",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1777,7 +1631,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719479460/website%20assets/Longue%20Chaise%20Sofa/d8xt5ayy5x4tfzjjq353.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719479460/website%20assets/Longue%20Chaise%20Sofa/slooh5zc7pqgqlipgful.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719479460/website%20assets/Longue%20Chaise%20Sofa/owqgl7cagofc3dy8jiyu.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1806,7 +1659,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719140335/website%20assets/Fabric/Bardhyl%20Fabric%20Sofa/nismaaya-bardhyl-3-seater-fabric-sofa-green_5_1_ovdssg.png",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719140345/website%20assets/Fabric/Bardhyl%20Fabric%20Sofa/nismaaya-bardhyl-3-seater-fabric-sofa-green_9_k2f1yv.png",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719140361/website%20assets/Fabric/Bardhyl%20Fabric%20Sofa/nismaaya-bardhyl-3-seater-fabric-sofa-green_8_kmymt1.png",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1831,7 +1683,6 @@ const sofasData = [
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719140260/website%20assets/Fabric/Bardhyl%20Fabric%20Sofa/nismaaya-basim-3-seater-fabric-sofa_2_ybirsq.png",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719140257/website%20assets/Fabric/Bardhyl%20Fabric%20Sofa/nismaaya-basim-3-seater-fabric-sofa_1_ht0pma.png",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1857,7 +1708,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132058/website%20assets/Fabric/Adlai%20Velvet%20Sofa/nismaaya-adlai-3-seater-black-velvet-sofa_2_hztnj8.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132057/website%20assets/Fabric/Adlai%20Velvet%20Sofa/nismaaya-adlai-3-seater-black-velvet-sofa_1_bmqbtc.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719132059/website%20assets/Fabric/Adlai%20Velvet%20Sofa/nismaaya-adlai-3-seater-black-velvet-sofa_3_nfoy7g.webp",
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1955,8 +1805,6 @@ const sofasData = [
     discount: "10",
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482057/website%20assets/Fabric/Chesterfield%20Fabric%20Sofa%20Set%203%2B2%20Seater/hyramiyf4ioiayajkh4o.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -1981,8 +1829,6 @@ const sofasData = [
     images: [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482719/website%20assets/Fabric/L%20Shaped%20Olivia%20Fabric%20Sofa/k07jnfcrsjmdnuzlmtp6.jpg",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719482719/website%20assets/Fabric/L%20Shaped%20Olivia%20Fabric%20Sofa/qe24qy907slphemoiv9h.jpg",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
-      // Add more image URLs here if needed
     ],
     ProductOverview: [
       {
@@ -2039,7 +1885,6 @@ const sofasData = [
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719551282/website%20assets/Fabric/Benjamin%203%20Seater%20Sofa%20Ash%20Grey/vqgmuitcj55av8oo6edq.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719551280/website%20assets/Fabric/Benjamin%203%20Seater%20Sofa%20Ash%20Grey/aw8np4org2pdyddsyrge.webp",
       "https://res.cloudinary.com/dg38njbya/image/upload/v1719551279/website%20assets/Fabric/Benjamin%203%20Seater%20Sofa%20Ash%20Grey/n3pftlbkz212ofnofywv.webp",
-      // 'https://res.cloudinary.com/dg38njbya/image/upload/v1716636832/website%20assets/fabric%20sofa/cqftsk51nynrekacmaji.webp',
     ],
     ProductOverview: [
       {
