@@ -20,7 +20,6 @@ export default function Home() {
       <div className="bg-white text-black">
         <WhatsAppButton />
         <CallNowButton />
-
         <HeroCarousel />
         {/* <TopCategories /> */}
         <br />
